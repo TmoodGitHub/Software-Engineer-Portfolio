@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Bot, Briefcase, Code, User } from "lucide-react";
 
 export const AboutMe = () => {
   return (
@@ -94,6 +94,21 @@ export const AboutMe = () => {
                   </h4>
                   <p className="text-muted-foreground">
                     Mentorship, code quality, architectural influences
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Bot className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">AI Engineering</h4>
+                  <p className="text-muted-foreground">
+                    Exploring LLMs, GenAi apps, and intelligent systems built
+                    for scale
                   </p>
                 </div>
               </div>
