@@ -41,10 +41,12 @@ export const AboutMe = () => {
               </a>
 
               <a
-                href=""
+                href="/Tamer_Mahmoud_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download Resume
+                View Resume
               </a>
             </div>
           </div>
@@ -55,30 +57,44 @@ export const AboutMe = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semibold text-lg">Software Engineer</h4>
-                  <p className="text-muted-foreground">End-to-end ownership</p>
+                  <h4 className="font-semibold text-lg">
+                    Full-Stack Engineering
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Scalable systems, clean architecture, end-to-end delivery
+                  </p>
                 </div>
               </div>
             </div>
+
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semibold text-lg">Product/UX/UI</h4>
-                  <p className="text-muted-foreground">Actual interactions</p>
+                  <h4 className="font-semibold text-lg">
+                    Product-Driven Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    User-focused features, real-time interfaces, thoughtful UX
+                  </p>
                 </div>
               </div>
             </div>
+
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="text-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">Manage Sheeples</p>
+                  <h4 className="font-semibold text-lg">
+                    Technical Leadership
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Mentorship, code quality, architectural influences
+                  </p>
                 </div>
               </div>
             </div>

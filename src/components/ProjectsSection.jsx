@@ -1,3 +1,4 @@
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
@@ -88,7 +89,7 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <GitHubLogoIcon className="w-5 h-5" />
                     </a>
                   </div>
                 </div>

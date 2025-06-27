@@ -28,6 +28,7 @@ const skills = [
   { name: "Git/Github/Gitlab", level: 80, category: "tools" },
   { name: "Jira", level: 80, category: "tools" },
   { name: "CircleCi", level: 65, category: "tools" },
+  { name: "Docker", level: 45, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "cloud", "tools"];

@@ -2,6 +2,7 @@ import { Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
+import { LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 export const ContactSection = () => {
   const { toast } = useToast();
@@ -87,8 +88,8 @@ export const ContactSection = () => {
               <div className="pt-8">
                 <h4 className="font-medium mb-4">Connect With Me</h4>
                 <div className="flex space-x-4 justify-center">
-                  <a href="#" target="_blank">
-                    <Linkedin />
+                  <a href="https://www.linkedin.com/in/tmood" target="_blank">
+                    <LinkedInLogoIcon className="w-8 h-8" />
                   </a>
                 </div>
               </div>
@@ -149,7 +150,7 @@ export const ContactSection = () => {
                   id="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Hello, I'd like to talk about.."
+                  placeholder="Hello, I'd like to talk about.. (note: this form is not yet functional)"
                 />
               </div>
 
