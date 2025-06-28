@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "./components/ui/toaster";
-import { Chatbot } from "./components/Chatbot";
+import { TmoodBot } from "./components/TmoodBot";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      <Chatbot />
+      <TmoodBot />
     </>
   );
 }

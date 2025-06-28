@@ -12,15 +12,23 @@ const GREETINGS = [
   "Beep Beep Bwoop!",
 ];
 
-export const Chatbot = () => {
+export const TmoodBot = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [greeting, setGreeting] = useState("");
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-
   const bottomRef = useRef(null);
 
+  // Load messages from sessionStorage
+  useEffect(() => {
+    const stored = sessionStorage.getItem("tmood-chat");
+    if (stored) {
+      setMessages(JSON.parse(stored));
+      setIsOpen(true); // Auto-open if there was history
+    }
+  }, []);
+
+  // Scroll to bottom when messages update
   useEffect(() => {
     if (bottomRef.current) {
       bottomRef.current.scrollIntoView({ behavior: "smooth" });
@@ -28,19 +36,19 @@ export const Chatbot = () => {
   }, [messages]);
 
   const toggleChat = () => {
-    if (!isOpen) {
+    if (!isOpen && messages.length === 0) {
       const msg = GREETINGS[Math.floor(Math.random() * GREETINGS.length)];
-      setGreeting(msg);
-      setMessages([
-        {
-          role: "TmoodBot",
-          content:
-            msg +
-            " I'm TmoodBot! Nice to meetcha!" +
-            " Ask me anything you wish to know about Tamer Mahmoud, my creator!",
-        },
-      ]);
+      const greetingMessage = {
+        role: "system",
+        content:
+          msg +
+          " I'm TmoodBot! Nice to meetcha!" +
+          " Ask me anything you wish to know about Tamer Mahmoud, my creator!",
+      };
+      setMessages([greetingMessage]);
+      sessionStorage.setItem("tmood-chat", JSON.stringify([greetingMessage]));
     }
+
     setIsOpen(!isOpen);
   };
 
@@ -52,22 +60,24 @@ export const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("/api/chat", {
+      const res = await fetch("http://localhost:3001/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: newMessages }),
       });
 
       const data = await res.json();
-      setMessages([...newMessages, { role: "TmoodBot", content: data.reply }]);
+      const updated = [...newMessages, { role: "system", content: data.reply }];
+      setMessages(updated);
+      sessionStorage.setItem("tmood-chat", JSON.stringify(updated));
     } catch (err) {
-      setMessages([
-        ...newMessages,
-        {
-          role: "TmoodBot",
-          content: "Something went wrong. Try again later.",
-        },
-      ]);
+      const errorMessage = {
+        role: "system",
+        content: "Something went wrong. Try again later.",
+      };
+      const updated = [...newMessages, errorMessage];
+      setMessages(updated);
+      sessionStorage.setItem("tmood-chat", JSON.stringify(updated));
     } finally {
       setLoading(false);
     }
@@ -95,10 +105,10 @@ export const Chatbot = () => {
                 }`}
               >
                 <div className="text-xs text-muted-foreground font-semibold px-2">
-                  {msg.role === "user" ? "You" : msg.role}
+                  {msg.role === "user" ? "You" : "TmoodBot"}
                 </div>
                 <div
-                  className={`px-4 py-2 rounded-2xl max-w-[80%] animate-[fade-in_0.7s_ease-out_forwards] ${
+                  className={`px-4 py-2 rounded-2xl max-w-[80%] text-left animate-[fade-in_0.7s_ease-out_forwards] ${
                     msg.role === "user"
                       ? "bg-primary text-primary-foreground"
                       : "bg-muted text-muted-foreground"
