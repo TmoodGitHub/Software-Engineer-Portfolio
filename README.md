@@ -1,4 +1,4 @@
-# 🤖 Tmood AI Portfolio Chatbot
+# 🤖 A Software Engineer Porfolio with AI Chatbot
 
 A fully responsive developer portfolio built with React, Vite, and Tailwind CSS. It is designed for performance, responsiveness, and clean UI/UX, featuring a theme toggle, animated transitions, section-based navigation, and a starry animated background with occasional shooting meteors visible in dark mode. The site also includes a custom AI chatbot powered by OpenAI, Python, and embeddings, trained on my resume, GitHub, and LinkedIn to answer recruiter and developer-related questions in a conversational way.
 
@@ -17,24 +17,40 @@ A fully responsive developer portfolio built with React, Vite, and Tailwind CSS.
 
 ## 🔧 Tech Stack
 
+<div align="center">
+
 <table>
   <tr>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40"/><br/>React</td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40"/><br/>Vite</td>
-    <td align="center" width="100"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40"/><br/>Tailwind CSS</td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/><br/>Python</td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40"/><br/>Node.js</td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" width="200" /><br/>React
+    </td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" width="200" /><br/>Vite
+    </td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" width="200" /><br/>Tailwind CSS
+    </td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" width="200" /><br/>Node.js
+    </td>
   </tr>
   <tr>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/><br/>JavaScript</td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/><br/>PostgreSQL</td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40"/><br/>Docker</td>
-    <td align="center" width="150">
-      <img src="https://img.shields.io/badge/OpenAI-API-green?logo=openai&logoColor=white" /><br/>OpenAI API
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" width="200" /><br/>JavaScript
     </td>
-    <td align="center" width="100"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40"/><br/>Git</td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" width="200" /><br/>Python
+    </td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white" width="200" /><br/>OpenAI API
+    </td>
+    <td align="center" width="240">
+      <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" width="200" /><br/>Git
+    </td>
   </tr>
 </table>
+
+</div>
 
 ---
 
@@ -102,19 +118,24 @@ Open browser at `http://localhost:5173`
 
 ---
 
-## 📫 Contact
+## 📫 Let’s Connect
+
+<div align="center">
 
 <table>
   <tr>
-    <td align="center" width="150">
+    <td align="center" width="260">
       <a href="https://linkedin.com/in/tmood" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn"/><br/>LinkedIn
+        <img src="https://img.shields.io/badge/LinkedIn-Tamer%20Mahmoud-0A66C2?logo=linkedin&logoColor=white" width="240" />
       </a>
     </td>
-    <td align="center" width="150">
+    <td align="center" width="380">
       <a href="mailto:tamer.m.mahmoud@gmail.com">
-        <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" width="30" alt="Email"/><br/>Email
+        <img src="https://img.shields.io/badge/Email-tamer.m.mahmoud@gmail.com-D14836?logo=gmail&logoColor=white" width="360" />
       </a>
     </td>
   </tr>
 </table>
+
+</div>
+
