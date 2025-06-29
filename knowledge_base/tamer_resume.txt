@@ -1,0 +1,58 @@
+Tamer Mahmoud
+Herndon, VA | Open to Remote | 202-731-0762 | tamer.m.mahmoud@gmail.com | linkedin.com/in/tmood
+Senior Software Engineer | Full-Stack Developer | Cloud & Automation Engineer
+Software Engineer with 10+ years of experience driving technical excellence and building scalable, high-performance systems.
+Expertise in full-stack development, system design, and automation, with ability to enhance system efficiency, streamline data
+pipelines, and lead high-stakes architectural decisions. Spearheaded complex migrations to microservices, improved incident
+response times, and optimized feature delivery through strategic use of automation. Focused on solving challenging technical
+problems, growing into a leadership role, and maximizing impact and earning potential in a remote senior engineering position.
+CORE COMPETENCIES
+Full-Stack Development | System Design & Architecture | Performance Optimization & Scalability | Product Ownership & Delivery
+| User Experience & Interface Design | Data Pipelines & Automation | Code Quality & Best Practices | Mentoring & Technical
+Leadership | Business Alignment & Strategic Thinking | Problem Solving & Debugging | Continuous Improvement & Innovation |
+Cross-Functional Collaboration | Production-Level Engineering
+PROFESSIONAL EXPERIENCE
+Software Engineer | Expel 01/2023 – Present
+●
+Design, build, and maintain scalable data ingestion and detection pipelines to process alerts, investigations, and incidents from customer environments, enabling automated threat detection and improving security incident response. Develop customizable, self-service platform for internal teams and customers to extract strategic insights from real-time data.
+●
+Develop and deploy high-performance, scalable web applications using React, Ember.js (Classic & Octane), and Node.js, serving thousands of users and supporting real-time data experiences. Collaborate with Product and Design to deliver user-facing features. Manage database architecture and efficient data management with PostgreSQL, Cloud SQL, BigQuery, and Sequelize ORM. Integrate message bus and queue frameworks (e.g., PubSub) and ElasticSearch to enhance data flow efficiency, system communication, advanced data retrieval, and overall system responsiveness.
+●
+Build and automate critical system workflows using Go and Python, improving operational efficiency. Implement robust monitoring and logging solutions with GCP Logger and Datadog, driving a 20% improvement in incident response times by enabling proactive issue detection and faster resolution.
+●
+Improve feature delivery and user engagement by managing feature flagging with LaunchDarkly for controlled rollouts and A/B testing. Streamline communication workflows with Courier to ensure consistent and timely user notifications, increasing user satisfaction and system reliability.
+●
+Shape technical strategy and team performance by setting coding standards, conducting in-depth code reviews, and mentoring junior developers. Act as Subject Matter Expert (SME) for core features, providing high-level API support and influencing architectural decisions to improve scalability and maintainability.
+Full Stack Developer | Sales Boomerang 04/2022 – 10/2022
+●
+Developed and deployed dynamic full-stack features by building responsive front-end interfaces with Angular, React, and TypeScript, while managing backend operations with Node.js and Sequelize ORM to enable efficient data processing.
+●
+Optimized system performance and scalability by refining REST APIs, reducing latency, and improving data retrieval efficiency. Managed AWS services and integrated CI/CD pipelines to streamline deployment processes.
+●
+Enhanced product delivery and team efficiency by identifying performance bottlenecks, automating key workflows, and implementing best practices in code architecture. Collaborated with cross-functional teams to align technical solutions with business goals and user needs.
+Web Consultant | Rural Sourcing, Inc. 08/2021 – 04/2022
+●
+Led migration of monolithic legacy system to microservices architecture using PHP, React, and AWS, improving system scalability, maintainability, and deployment speed.
+●
+Developed Python-based data processing scripts to query aggregated big data, enhancing analytical capabilities and automating key data retrieval processes. Dockerized development environments to improve consistency.
+●
+Enhanced system reliability and uptime by troubleshooting and maintaining APIs, identifying and resolving performance bottlenecks, and implementing solutions to minimize downtime and ensure continuous service availability.
+Software Engineer | Gallaudet University 10/2012 – 08/2020
+●
+Designed and developed custom CMS to streamline content management processes, improving data handling. Led migration of large datasets from MS Access to MSSQL, ensuring data integrity and minimal disruption.
+●
+Developed and deployed RESTful APIs to enable seamless integration between front-end and back-end systems, enhancing data exchange efficiency and system scalability.
+●
+Engineered real-time video messaging system using RecordRTC and WebRTC, increasing communication engagement and improving user interaction through innovative video capabilities.
+●
+Built high-impact productivity tools such as custom online assessment form, automating key tasks and improving team efficiency. Modernized legacy applications by implementing React for dynamic front-end interfaces and Node.js for back-end services, resulting in a more scalable and maintainable codebase.
+EDUCATION
+Bachelor of Science in Information Technologies | Rochester Institute of Technology
+TECHNICAL SKILLS
+Programming Languages: JavaScript, TypeScript, Python, PHP, GoLang
+Frontend Frameworks & Libraries: React, Next.js, Tailwind CSS, Ember.js, Radix UI, Angular
+Backend Development: Node.js, Prisma, REST APIs, ElasticSearch (ES), Java
+Design & Collaboration Tools: Figma, LaunchDarkly, Courier
+Database Technologies: PostgreSQL (Postgres), MySQL, MSSQL, MongoDB (with Mongoose), Sequelize ORM
+Cloud & Infrastructure: AWS (Lambda, SQS, EventBridge), Google Cloud Platform (GCP), Docker, Serverless Framework
+Automation & CI/CD: Datadog, CircleCI, GCP Logging

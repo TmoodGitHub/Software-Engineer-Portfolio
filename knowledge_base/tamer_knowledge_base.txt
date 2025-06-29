@@ -1,0 +1,612 @@
+--- tamer_resume.txt ---
+Tamer Mahmoud
+Herndon, VA | Open to Remote | 202-731-0762 | tamer.m.mahmoud@gmail.com | linkedin.com/in/tmood
+Senior Software Engineer | Full-Stack Developer | Cloud & Automation Engineer
+Software Engineer with 10+ years of experience driving technical excellence and building scalable, high-performance systems.
+Expertise in full-stack development, system design, and automation, with ability to enhance system efficiency, streamline data
+pipelines, and lead high-stakes architectural decisions. Spearheaded complex migrations to microservices, improved incident
+response times, and optimized feature delivery through strategic use of automation. Focused on solving challenging technical
+problems, growing into a leadership role, and maximizing impact and earning potential in a remote senior engineering position.
+CORE COMPETENCIES
+Full-Stack Development | System Design & Architecture | Performance Optimization & Scalability | Product Ownership & Delivery
+| User Experience & Interface Design | Data Pipelines & Automation | Code Quality & Best Practices | Mentoring & Technical
+Leadership | Business Alignment & Strategic Thinking | Problem Solving & Debugging | Continuous Improvement & Innovation |
+Cross-Functional Collaboration | Production-Level Engineering
+PROFESSIONAL EXPERIENCE
+Software Engineer | Expel 01/2023 – Present
+●
+Design, build, and maintain scalable data ingestion and detection pipelines to process alerts, investigations, and incidents from customer environments, enabling automated threat detection and improving security incident response. Develop customizable, self-service platform for internal teams and customers to extract strategic insights from real-time data.
+●
+Develop and deploy high-performance, scalable web applications using React, Ember.js (Classic & Octane), and Node.js, serving thousands of users and supporting real-time data experiences. Collaborate with Product and Design to deliver user-facing features. Manage database architecture and efficient data management with PostgreSQL, Cloud SQL, BigQuery, and Sequelize ORM. Integrate message bus and queue frameworks (e.g., PubSub) and ElasticSearch to enhance data flow efficiency, system communication, advanced data retrieval, and overall system responsiveness.
+●
+Build and automate critical system workflows using Go and Python, improving operational efficiency. Implement robust monitoring and logging solutions with GCP Logger and Datadog, driving a 20% improvement in incident response times by enabling proactive issue detection and faster resolution.
+●
+Improve feature delivery and user engagement by managing feature flagging with LaunchDarkly for controlled rollouts and A/B testing. Streamline communication workflows with Courier to ensure consistent and timely user notifications, increasing user satisfaction and system reliability.
+●
+Shape technical strategy and team performance by setting coding standards, conducting in-depth code reviews, and mentoring junior developers. Act as Subject Matter Expert (SME) for core features, providing high-level API support and influencing architectural decisions to improve scalability and maintainability.
+Full Stack Developer | Sales Boomerang 04/2022 – 10/2022
+●
+Developed and deployed dynamic full-stack features by building responsive front-end interfaces with Angular, React, and TypeScript, while managing backend operations with Node.js and Sequelize ORM to enable efficient data processing.
+●
+Optimized system performance and scalability by refining REST APIs, reducing latency, and improving data retrieval efficiency. Managed AWS services and integrated CI/CD pipelines to streamline deployment processes.
+●
+Enhanced product delivery and team efficiency by identifying performance bottlenecks, automating key workflows, and implementing best practices in code architecture. Collaborated with cross-functional teams to align technical solutions with business goals and user needs.
+Web Consultant | Rural Sourcing, Inc. 08/2021 – 04/2022
+●
+Led migration of monolithic legacy system to microservices architecture using PHP, React, and AWS, improving system scalability, maintainability, and deployment speed.
+●
+Developed Python-based data processing scripts to query aggregated big data, enhancing analytical capabilities and automating key data retrieval processes. Dockerized development environments to improve consistency.
+●
+Enhanced system reliability and uptime by troubleshooting and maintaining APIs, identifying and resolving performance bottlenecks, and implementing solutions to minimize downtime and ensure continuous service availability.
+Software Engineer | Gallaudet University 10/2012 – 08/2020
+●
+Designed and developed custom CMS to streamline content management processes, improving data handling. Led migration of large datasets from MS Access to MSSQL, ensuring data integrity and minimal disruption.
+●
+Developed and deployed RESTful APIs to enable seamless integration between front-end and back-end systems, enhancing data exchange efficiency and system scalability.
+●
+Engineered real-time video messaging system using RecordRTC and WebRTC, increasing communication engagement and improving user interaction through innovative video capabilities.
+●
+Built high-impact productivity tools such as custom online assessment form, automating key tasks and improving team efficiency. Modernized legacy applications by implementing React for dynamic front-end interfaces and Node.js for back-end services, resulting in a more scalable and maintainable codebase.
+EDUCATION
+Bachelor of Science in Information Technologies | Rochester Institute of Technology
+TECHNICAL SKILLS
+Programming Languages: JavaScript, TypeScript, Python, PHP, GoLang
+Frontend Frameworks & Libraries: React, Next.js, Tailwind CSS, Ember.js, Radix UI, Angular
+Backend Development: Node.js, Prisma, REST APIs, ElasticSearch (ES), Java
+Design & Collaboration Tools: Figma, LaunchDarkly, Courier
+Database Technologies: PostgreSQL (Postgres), MySQL, MSSQL, MongoDB (with Mongoose), Sequelize ORM
+Cloud & Infrastructure: AWS (Lambda, SQS, EventBridge), Google Cloud Platform (GCP), Docker, Serverless Framework
+Automation & CI/CD: Datadog, CircleCI, GCP Logging
+
+--- tamer_github.txt ---
+# TmoodGitHub
+
+# Hi, I'm Tamer Mahmoud 👋
+
+I'm a Senior Software Engineer with over a decade of experience building scalable, performant, and maintainable systems across the stack. I specialize in full-stack development, cloud infrastructure, and automation, with a strong track record of leading complex migrations, mentoring developers, and improving engineering workflows.
+
+---
+
+## 🧰 Tech Stack
+
+<table>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" /><br/>HTML
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" /><br/>CSS
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" /><br/>JavaScript
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" /><br/>React
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" /><br/>TypeScript
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="40" /><br/>Next.js
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" /><br/>Node.js
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" /><br/>Express
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" /><br/>PostgreSQL
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" /><br/>MySQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" width="40" /><br/>Sequelize
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="40" /><br/>Prisma
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="40" /><br/>GraphQL
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /><br/>Git
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" /><br/>Docker
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40" /><br/>AWS
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" /><br/>GCP
+    </td>
+    <td align="center" width="100">
+      <img src="https://img.icons8.com/ios-filled/50/000000/jira.png" width="40" /><br/>Jira
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" width="40" /><br/>CircleCI
+    </td>
+    <td align="center" width="100">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" /><br/>Tailwind
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Projects
+Check out some of the things I’ve been building:
+
+- 🛠️ [Tmood-Academy](https://github.com/TmoodGitHub/Tmood-Academy): A full-stack project demonstrating CRUD features, filtering, and dashboard design
+- 🌌 [Vite React Portfolio](https://vite-react-portfolio-lime.vercel.app/): My personal portfolio, built with Vite, React, Tailwind, and Radix UI
+
+---
+
+## 🎯 A Bit About Me
+- 🧠 I think debugging is like solving escape room puzzles, except the bugs don’t want you to win.
+- 🍳 I code better after a good Kashi waffle bites cereal 🤤.
+- 🕹️ My laptop has survived intense full-stack battles and survived. Barely.
+- 🔄 Currently working on leveling up my AI skills—without getting replaced by a toaster.
+
+---
+
+## 🧠 Learning & Growth
+- Exploring LLM evaluation, GenAI systems, and prompt engineering
+- Sharpening Go and Python for backend automation
+- Studying system design patterns and high-scale architecture
+
+---
+
+## 🎮 Fun Facts / Interests
+- I read manga more than I should admit
+- I enjoy volleyball, lifting, and dad-juggling toddler chaos
+- I prefer cartoons and anime over live-action anything
+
+---
+
+## 📫 Let’s Connect
+
+<table>
+  <tr>
+    <td align="center" width="150">
+      <a href="https://linkedin.com/in/tmood" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn"/><br/>LinkedIn
+      </a>
+    </td>
+    <td align="center" width="150">
+      <a href="mailto:tamer.m.mahmoud@gmail.com">
+        <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" width="30" alt="Email"/><br/>Email
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+---
+
+
+
+--- tamer_linkedin.txt ---
+About
+I’ve spent the last 10+ years building systems that scale, evolve, and solve real problems. From startups to established tech teams, I’ve worked across industries (education, cybersecurity, fintech) helping companies turn complex technical challenges into streamlined, performant solutions. What started as a curiosity for how things work became a career focused on crafting full-stack architectures, automating workflows, and designing software that’s not just functional, but dependable, efficient, and built to last.
+
+Along the way, I’ve contributed to migrations from monoliths to microservices, improved deployment pipelines, and mentored developers toward stronger, cleaner code. I’m at home working across the stack, whether building frontend interfaces that enhance user experience or shaping backend systems that drive business-critical operations. I care deeply about performance, collaboration, and writing code that teams can trust and build on. Let’s connect!
+
+Contact: tamer.m.mahmoud@gmail.comI’ve spent the last 10+ years building systems that scale, evolve, and solve real problems. From startups to established tech teams, I’ve worked across industries (education, cybersecurity, fintech) helping companies turn complex technical challenges into streamlined, performant solutions. What started as a curiosity for how things work became a career focused on crafting full-stack architectures, automating workflows, and designing software that’s not just functional, but dependable, efficient, and built to last. Along the way, I’ve contributed to migrations from monoliths to microservices, improved deployment pipelines, and mentored developers toward stronger, cleaner code. I’m at home working across the stack, whether building frontend interfaces that enhance user experience or shaping backend systems that drive business-critical operations. I care deeply about performance, collaboration, and writing code that teams can trust and build on. Let’s connect! Contact: tamer.m.mahmoud@gmail.com
+
+Top skills
+Full-Stack Software Development • System Architecture & Design • Cloud Infrastructure & Automation • Scalable Web Application Development • Technical Leadership & Mentorship
+
+Expel logo
+Software Engineer
+Expel · Full-timeExpel · Full-time
+Jan 2023 - Jun 2025 · 2 yrs 6 mosJan 2023 to Jun 2025 · 2 yrs 6 mos
+RemoteRemote
+Lead development of scalable, high-performance web applications using Ember.js, React, and Node.js, paired with PostgreSQL and Sequelize for robust data management. Integrated ElasticSearch to streamline complex data retrieval and leveraged GoLang and Python to automate internal workflows. Enhanced CI/CD pipelines with CircleCI, cutting deployment times by 30%, and implemented proactive monitoring with GCP Logger and Datadog to reduce incident response time by 20%. Managed feature delivery using LaunchDarkly and improved notification workflows with Courier. Served as SME for core platform features, influenced architectural decisions, and mentored junior engineers to elevate team quality and consistency.Lead development of scalable, high-performance web applications using Ember.js, React, and Node.js, paired with PostgreSQL and Sequelize for robust data management. Integrated ElasticSearch to streamline complex data retrieval and leveraged GoLang and Python to automate internal workflows. Enhanced CI/CD pipelines with CircleCI, cutting deployment times by 30%, and implemented proactive monitoring with GCP Logger and Datadog to reduce incident response time by 20%. Managed feature delivery using LaunchDarkly and improved notification workflows with Courier. Served as SME for core platform features, influenced architectural decisions, and mentored junior engineers to elevate team quality and consistency.…see more
+Full-Stack Development, Software Development and +9 skills
+Sales Boomerang logo
+Full Stack Developer
+Full Stack Developer
+Sales Boomerang · Full-timeSales Boomerang · Full-time
+May 2022 - Oct 2022 · 6 mosMay 2022 to Oct 2022 · 6 mos
+RemoteRemote
+Built and deployed full-stack features using Angular, React, and TypeScript on the frontend, with backend systems in Node.js and Sequelize. Optimized REST APIs to improve system speed and reliability, integrated AWS services, and established CI/CD workflows to enable faster, more stable releases. Identified bottlenecks, automated key processes, and aligned technical execution with business priorities across cross-functional teams.Built and deployed full-stack features using Angular, React, and TypeScript on the frontend, with backend systems in Node.js and Sequelize. Optimized REST APIs to improve system speed and reliability, integrated AWS services, and established CI/CD workflows to enable faster, more stable releases. Identified bottlenecks, automated key processes, and aligned technical execution with business priorities across cross-functional teams.…see more
+TypeScript, AWS and +11 skills
+Rural Sourcing is now Sparq (teamsparq.com) logo
+Web Consultant
+Web Consultant
+Rural Sourcing · Full-timeRural Sourcing · Full-time
+Aug 2021 - May 2022 · 10 mosAug 2021 to May 2022 · 10 mos
+ helped me get this job
+LinkedIn helped me get this job
+Led the migration of a monolithic legacy system to a modern microservices architecture using PHP, React, and AWS, significantly improving scalability and system maintainability. Developed Python-based scripts to handle big data queries and streamlined development environments using Docker. Strengthened API reliability and uptime by troubleshooting and optimizing performance-critical components.Led the migration of a monolithic legacy system to a modern microservices architecture using PHP, React, and AWS, significantly improving scalability and system maintainability. Developed Python-based scripts to handle big data queries and streamlined development environments using Docker. Strengthened API reliability and uptime by troubleshooting and optimizing performance-critical components.…see more
+Microservices , AWS and +13 skills
+Gallaudet University logo
+Software Engineer
+Software Engineer
+Gallaudet University · Full-timeGallaudet University · Full-time
+Oct 2012 - Aug 2020 · 7 yrs 11 mosOct 2012 to Aug 2020 · 7 yrs 11 mos
+Washington, District of Columbia, United StatesWashington, District of Columbia, United States
+Designed and implemented a custom CMS and led the data migration from MS Access to MSSQL to modernize the university's internal systems. Developed RESTful APIs and integrated them with frontend interfaces built in React and backend services in Node.js. Delivered a real-time video-emailing system using WebRTC, and built internal tools that automated assessments and administrative workflows.Designed and implemented a custom CMS and led the data migration from MS Access to MSSQL to modernize the university's internal systems. Developed RESTful APIs and integrated them with frontend interfaces built in React and backend services in Node.js. Delivered a real-time video-emailing system using WebRTC, and built internal tools that automated assessments and administrative workflows.…see more
+Responsive Web Design, JavaScript and +13 skills
+IT & Technical Support Roles
+IT & Technical Support Roles 
+IT & Technical Support Roles 
+Best Buy, Genie Technologies, HP Enterprise · Full-timeBest Buy, Genie Technologies, HP Enterprise · Full-time
+Mar 2010 - Oct 2012 · 2 yrs 8 mosMar 2010 to Oct 2012 · 2 yrs 8 mos
+Provided technical support and hardware servicing in customer-facing and enterprise environments. At Best Buy's Geek Squad, delivered hands-on diagnostics, repairs, and tech guidance for a wide range of consumer devices. At Genie Technologies, worked on enterprise desktop support, handling troubleshooting, system setups, and routine maintenance. At HP Enterprise (CAC Consummables division), supported internal IT operations, helped deploy software and hardware solutions, and ensured continuity for on-site systems. Built foundational experience in system diagnostics, user support, and tech operations across both commercial and corporate settings.Provided technical support and hardware servicing in customer-facing and enterprise environments. At Best Buy's Geek Squad, delivered hands-on diagnostics, repairs, and tech guidance for a wide range of consumer devices. At Genie Technologies, worked on enterprise desktop support, handling troubleshooting, system setups, and routine maintenance. At HP Enterprise (CAC Consummables division), supported internal IT operations, helped deploy software and hardware solutions, and ensured continuity for on-site systems. Built foundational experience in system diagnostics, user support, and tech operations across both commercial and corporate settings.…see more
+Technical Support, Hardware Diagnostics and +8 skills
+
+Skills
+
+All
+Industry Knowledge
+Tools & Technologies
+Technical Support
+Technical Support
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Hardware Diagnostics 
+Hardware Diagnostics 
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+IT Operations
+IT Operations
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+System Deployment
+System Deployment
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+End-User Training 
+End-User Training 
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Desktop Support
+Desktop Support
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Network Troubleshooting
+Network Troubleshooting
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Customer Service
+Customer Service
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Helpdesk 
+Helpdesk 
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Device Configuration
+Device Configuration
+IT & Technical Support Roles at Best Buy, Genie Technologies, HP EnterpriseIT & Technical Support Roles at Best Buy, Genie Technologies, HP Enterprise
+Automation
+Automation
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Database Migration 
+Database Migration 
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Frontend Engineering 
+Frontend Engineering 
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Backend Development
+Backend Development
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Docker 
+Docker 
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+Big Data
+Big Data
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+System Migration
+System Migration
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+API Development
+API Development
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+Legacy Modernization
+Legacy Modernization
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+REST APIs 
+REST APIs 
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Sequelize 
+Sequelize 
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+Software Optimization 
+Software Optimization 
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+Cross-Functional Collaboration
+Cross-Functional Collaboration
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+CI/CD 
+CI/CD 
+Company logo
+2 experiences across Expel and 1 other company2 experiences across Expel and 1 other company
+React 
+React 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Node.js 
+Node.js 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+Ember.js 
+Ember.js 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+GoLang 
+GoLang 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Elasticsearch 
+Elasticsearch 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Microservices 
+Microservices 
+Company logo
+2 experiences across Expel and 1 other company2 experiences across Expel and 1 other company
+Technical Leadership 
+Technical Leadership 
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Cloud Infrastructure
+Cloud Infrastructure
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Full-Stack Software Development 
+Full-Stack Software Development 
+System Architecture & Design 
+System Architecture & Design 
+Cloud Infrastructure & Automation 
+Cloud Infrastructure & Automation 
+Scalable Web Application Development 
+Scalable Web Application Development 
+Technical Leadership & Mentorship
+Technical Leadership & Mentorship
+Full-Stack Development
+Full-Stack Development
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+Software Development
+Software Development
+Company logo
+Software Engineer at ExpelSoftware Engineer at Expel
+1 endorsement
+1 endorsement
+Front-end Development
+Front-end Development
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+2 endorsements
+2 endorsements
+Back-End Web Development
+Back-End Web Development
+2 endorsements
+2 endorsements
+TypeScript
+TypeScript
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+React.js
+React.js
+Company logo
+2 experiences across Sales Boomerang and 1 other company2 experiences across Sales Boomerang and 1 other company
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+AWS
+AWS
+Company logo
+2 experiences across Sales Boomerang and 1 other company2 experiences across Sales Boomerang and 1 other company
+1 endorsement
+1 endorsement
+AngularJS
+AngularJS
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+Object-Oriented Programming (OOP)
+Object-Oriented Programming (OOP)
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+JavaScript
+JavaScript
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+Node.js
+Node.js
+Company logo
+2 experiences across Sales Boomerang and 1 other company2 experiences across Sales Boomerang and 1 other company
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+MySQL
+MySQL
+Company logo
+2 experiences across Sales Boomerang and 1 other company2 experiences across Sales Boomerang and 1 other company
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+Scrum
+Scrum
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+2 endorsements
+2 endorsements
+Git
+Git
+Company logo
+3 experiences across Sales Boomerang and 2 other companies3 experiences across Sales Boomerang and 2 other companies
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+GitHub
+GitHub
+1 endorsement
+1 endorsement
+Algorithms
+Algorithms
+Google Cloud Platform
+Google Cloud Platform
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Web Design
+Web Design
+1 endorsement
+1 endorsement
+Web Development
+Web Development
+1 endorsement
+1 endorsement
+Functional Programming
+Functional Programming
+1 endorsement
+1 endorsement
+HTML
+HTML
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+Cascading Style Sheets (CSS)
+Cascading Style Sheets (CSS)
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+CSS Flexbox
+CSS Flexbox
+1 endorsement
+1 endorsement
+SASS
+SASS
+1 endorsement
+1 endorsement
+CSS Grid Layout
+CSS Grid Layout
+1 endorsement
+1 endorsement
+Application Frameworks
+Application Frameworks
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+1 endorsement
+1 endorsement
+Python
+Python
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+jQuery
+jQuery
+Company logo
+2 experiences across Rural Sourcing and 1 other company2 experiences across Rural Sourcing and 1 other company
+Passed LinkedIn Skill AssessmentPassed LinkedIn Skill Assessment
+1 endorsement
+1 endorsement
+Software Project Management
+Software Project Management
+Agile Project Management
+Agile Project Management
+Operations Management
+Operations Management
+Project Management
+Project Management
+Microsoft SQL Server
+Microsoft SQL Server
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+ECMAScript
+ECMAScript
+ASP.NET
+ASP.NET
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+2 endorsements
+2 endorsements
+Cloud Computing
+Cloud Computing
+Network Security
+Network Security
+Cloud Administration
+Cloud Administration
+Relational Databases
+Relational Databases
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Web RTC
+Web RTC
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+CMS
+CMS
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Responsive Web Design
+Responsive Web Design
+Company logo
+Software Engineer at Gallaudet UniversitySoftware Engineer at Gallaudet University
+Databases
+Databases
+Front-end Coding
+Front-end Coding
+PHP
+PHP
+Company logo
+Web Consultant at Rural SourcingWeb Consultant at Rural Sourcing
+MongoDB
+MongoDB
+Mongoose ODM
+Mongoose ODM
+Express.js
+Express.js
+Company logo
+Full Stack Developer at Sales BoomerangFull Stack Developer at Sales Boomerang
+HTML5
+HTML5
+WordPress
+WordPress
+PhpMyAdmin
+
+
+Licenses & certifications
+Amazon Web Services (AWS) logo
+AWS Partner: Accreditation (Technical)
+AWS Partner: Accreditation (Technical)
+Amazon Web Services (AWS)Amazon Web Services (AWS)
+Issued Sep 2021Issued Sep 2021
+Show credential
+Amazon Web Services (AWS) logo
+AWS Partner: Cloud Economics Accreditation
+AWS Partner: Cloud Economics Accreditation
+Amazon Web Services (AWS)Amazon Web Services (AWS)
+Issued Sep 2021Issued Sep 2021
+Show credential
+Amazon Web Services (AWS) logo
+AWS Certified Cloud Practitioner
+AWS Certified Cloud Practitioner
+Amazon Web Services (AWS)Amazon Web Services (AWS)
+Issued Oct 2021 · Expired Oct 2024Issued Oct 2021 · Expired Oct 2024
+Credential ID 7ZZ903EDG1BE1PCFCredential ID 7ZZ903EDG1BE1PCF
+Show credential
+
+EducationEducation
+Rochester Institute of Technology logo
+Rochester Institute of Technology
+Rochester Institute of Technology
+Information TechnologyInformation Technology
+2002 - 2007
+

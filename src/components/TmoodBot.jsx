@@ -95,7 +95,12 @@ export const TmoodBot = () => {
 
       {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 w-100 h-[420px] bg-background border rounded-2xl shadow-xl flex flex-col overflow-hidden z-50">
+        <div className="fixed bottom-24 right-6 w-100 h-[500px] bg-background border rounded-2xl shadow-xl flex flex-col overflow-hidden z-50">
+          {/* Disclaimer Banner */}
+          <div className="px-4 py-2 text-xs text-muted-foreground bg-muted border-b border-border text-center">
+            🤖 The TmoodBot is AI-powered and still improving. While it strives
+            for accuracy, we recommend verifying key information.
+          </div>
           <div className="flex-1 overflow-y-auto p-4 space-y-3 text-sm">
             {messages.map((msg, i) => (
               <div
