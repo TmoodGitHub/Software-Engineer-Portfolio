@@ -56,10 +56,26 @@ A fully responsive developer portfolio built with React, Vite, and Tailwind CSS.
 
 ## 💻 Running Locally
 
-### 🧠 Run Knowledge Base Scripts
+### Prereqs
+
+- Node 18+ (Node 20 recommended)
+- OpenAI API key
+- Python 3.10+ only if you plan to regenerate embeddings
+
+### Environment variables
+
+Create a file named `.env.local` at the project root:
 
 ```bash
-# 1. Create virtual environment
+OPENAI_API_KEY=sk-...
+```
+
+Do not put the key in any Vite env var.
+
+### 🧠 Run Knowledge Base Scripts (optional, only if you want to refresh embeddings)
+
+```bash
+# 1) Create virtual environment
 python -m venv venv
 
 # macOS/Linux
@@ -68,26 +84,85 @@ source venv/bin/activate
 # Windows (Git Bash / PowerShell)
 source venv/Scripts/activate
 
-# 2. Install dependencies
+# 2) Install Python deps
 pip install openai tiktoken python-dotenv
 
-# 3. Run scripts
-node scrape_github.mjs           # Optional GitHub scraping
-python combine_knowledge.py      # Combine all inputs
-python embed_knowledge.py        # Embed into vector format
+# 3) Build knowledge base
+node scrape_github.mjs           # optional GitHub scraping
+python combine_knowledge.py      # combine inputs
+python embed_knowledge.py        # embed into vector format
+
+# Output must exist at:
+# knowledge_base/tamer_knowledge_base_chunk.json
 ```
 
-### 🚀 Run Frontend
+---
+
+### 🚀 Start the app
+
+#### Option A - Recommended: Vercel dev for API + UI
+
+Runs the serverless API on port 3000 and Vite on 5173. This matches production and makes the chatbot work.
 
 ```bash
-# 1. Install dependencies
+# 1) Install dependencies
 npm install
 
-# 2. Run development server
+# 2) Start Vercel local server for API
+npx vercel dev
+
+# 3) In another terminal, start Vite dev server
 npm run dev
 ```
 
-Open browser at `http://localhost:5173`
+Open your browser at:
+
+```
+http://localhost:5173
+```
+
+Your `vite.config.js` should proxy API calls:
+
+```js
+// vite.config.js
+export default {
+  server: { proxy: { '/api': 'http://localhost:3000' } },
+};
+```
+
+#### Option B - Vite only
+
+This starts just the UI. The chatbot will not work unless the API is also running with `npx vercel dev`.
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+### Optional: production build preview
+
+You do not need to build for normal local dev. If you want to preview a production build locally:
+
+```bash
+npm run build
+npx vercel dev --prebuilt
+```
+
+---
+
+### Quick sanity check
+
+Test the API directly:
+
+```bash
+curl -X POST http://localhost:3000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{"messages":[{"role":"user","content":"Hello"}]}'
+```
+
+You should get a JSON response with a `reply`.
 
 ---
 
@@ -138,4 +213,3 @@ Open browser at `http://localhost:5173`
 </table>
 
 </div>
-
