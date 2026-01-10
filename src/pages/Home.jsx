@@ -1,18 +1,18 @@
-import { StarBackground } from "@/components/StarBackground";
-import { ThemeToggle } from "@/components/ThemeToggle";
-import { Navbar } from "@/components/Navbar";
-import { HeroSection } from "@/components/HeroSection";
-import { AboutMe } from "@/components/AboutMe";
-import { SkillsSection } from "../components/SkillsSection";
-import { ProjectsSection } from "../components/ProjectsSection";
-import { ContactSection } from "../components/ContactSection";
-import { FooterComponent } from "../components/FooterComponent";
+import { StarBackground } from '@/components/StarBackground';
+import { ThemeToggle } from '@/components/ThemeToggle';
+import { Navbar } from '@/components/Navbar';
+import { HeroSection } from '@/components/HeroSection';
+import { AboutMe } from '@/components/AboutMe';
+import { SkillsSection } from '../components/SkillsSection';
+import { ProjectsSection } from '../components/ProjectsSection';
+import { ContactSection } from '../components/ContactSection';
+import { FooterComponent } from '../components/FooterComponent';
 
 export const Home = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className='min-h-screen bg-background text-foreground overflow-x-hidden'>
       {/* Theme Toggle */}
-      <ThemeToggle variant="floating" />
+      <ThemeToggle variant='floating' />
 
       {/* Background Effects */}
       <StarBackground />
@@ -25,7 +25,7 @@ export const Home = () => {
         <HeroSection />
         <AboutMe />
         <SkillsSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
         <ContactSection />
       </main>
 

@@ -2,131 +2,207 @@
 
 # Hi, I'm Tamer Mahmoud 👋
 
-I'm a Senior Software Engineer with over a decade of experience building scalable, performant, and maintainable systems across the stack. I specialize in full-stack development, cloud infrastructure, and automation, with a strong track record of leading complex migrations, mentoring developers, and improving engineering workflows.
+Software Engineer with 10+ years of experience working across backend, frontend, and cloud systems. Strong background in
+building and operating production APIs, event-driven services, and data pipelines in AWS and GCP. Experience spans the full
+production lifecycle, from local development and code review through deployment, environment and infrastructure
+management, monitoring, debugging, and ongoing feature iteration in remote teams.
+
+---
+
+## 💼 Core Competencies
+
+<div align="center">
+
+<table style="border: none; border-collapse: separate; border-spacing: 20px;">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>☁️ Cloud & Distributed Systems</h4>
+      <ul>
+        <li>Cloud-native systems on AWS and GCP</li>
+        <li>Event-driven and serverless architectures</li>
+        <li>Environment isolation and access control</li>
+        <li>Monitoring, alerting, and production operations</li>
+        <li>Serverless Framework and infrastructure-as-code workflows</li>
+        <li>Cloud observability with CloudWatch and Datadog</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🔧 Backend & Data Engineering</h4>
+      <ul>
+        <li>Production API ownership</li>
+        <li>Async and event-driven services</li>
+        <li>SQL-heavy systems and query optimization</li>
+        <li>Data ingestion and processing pipelines (Athena, Firehose)</li>
+        <li>Python, Go, and Node.js backend services</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>📐 System Design & Architecture</h4>
+      <ul>
+        <li>Microservices and modular APIs</li>
+        <li>Scalability and reliability tradeoffs</li>
+        <li>Cloud-native design patterns</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>🛠 Full-Stack Development</h4>
+      <ul>
+        <li>React, Ember.js, Next.js, Angular</li>
+        <li>Node.js, Python, PHP</li>
+        <li>REST APIs and GraphQL</li>
+        <li>End-to-end feature delivery</li>
+      </ul>
+    </td>
+    <td>
+      <h4>🛢 Databases & Persistence</h4>
+      <ul>
+        <li>PostgreSQL, MySQL, MongoDB</li>
+        <li>Schema design and migrations</li>
+        <li>Query performance and indexing</li>
+        <li>ORMs including Sequelize and Prisma</li>
+      </ul>
+    </td>
+    <td>
+      <h4>🎨 UI/UX & Collaboration</h4>
+      <ul>
+        <li>Tailwind, Radix UI, Figma</li>
+        <li>Clean, responsive interfaces</li>
+        <li>Code reviews and mentorship</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
 ## 🧰 Tech Stack
 
+---
+
+### 🎨 Frontend
+
+<div align="center">
+
 <table>
   <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" /><br/>HTML
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" /><br/>CSS
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" /><br/>JavaScript
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" /><br/>React
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" /><br/>TypeScript
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="40" /><br/>Next.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" /><br/>Node.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" /><br/>Express
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" /><br/>PostgreSQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" /><br/>MySQL
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" width="40" /><br/>Sequelize
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="40" /><br/>Prisma
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="40" /><br/>GraphQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /><br/>Git
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" /><br/>Docker
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40" /><br/>AWS
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" /><br/>GCP
-    </td>
-    <td align="center" width="100">
-      <img src="https://img.icons8.com/ios-filled/50/000000/jira.png" width="40" /><br/>Jira
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" width="40" /><br/>CircleCI
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" /><br/>Tailwind
-    </td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" width="130" /><br/>React</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" width="130" /><br/>Next.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white" width="130" /><br/>Angular</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Ember.js-E04E39?logo=ember.js&logoColor=white" width="130" /><br/>Ember.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" width="130" /><br/>Tailwind</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Radix_UI-0F172A" width="130" /><br/>Radix UI</td>
   </tr>
 </table>
 
----
-
-## 🚀 Projects
-Check out some of the things I’ve been building:
-
-- 🛠️ [Tmood-Academy](https://github.com/TmoodGitHub/Tmood-Academy): A full-stack project demonstrating CRUD features, filtering, and dashboard design
-- 🌌 [Vite React Portfolio](https://vite-react-portfolio-lime.vercel.app/): My personal portfolio, built with Vite, React, Tailwind, and Radix UI
+</div>
 
 ---
 
-## 🎯 A Bit About Me
-- 🧠 I think debugging is like solving escape room puzzles, except the bugs don’t want you to win.
-- 🍳 I code better after a good Kashi waffle bites cereal 🤤.
-- 🕹️ My laptop has survived intense full-stack battles and survived. Barely.
-- 🔄 Currently working on leveling up my AI skills—without getting replaced by a toaster.
+### 🔧 Backend & Languages
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" width="130" /><br/>Node.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" width="130" /><br/>Python</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" width="130" /><br/>Go</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" width="130" /><br/>PHP</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/REST_API-005571?logo=swagger&logoColor=white" width="130" /><br/>REST API</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white" width="130" /><br/>GraphQL</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### ☁️ Cloud Platforms & Services
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>AWS</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/GCP-4285F4?logo=google-cloud&logoColor=white" width="130" /><br/>GCP</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS_Lambda-FF9900?logo=aws-lambda&logoColor=white" width="130" /><br/>Lambda</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_S3-569A31?logo=amazon-s3&logoColor=white" width="130" /><br/>S3</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_Kinesis_Firehose-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>Firehose</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?logo=amazon-aws&logoColor=white" width="130" /><br/>CloudWatch</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 🛢 Databases & Infrastructure
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" width="130" /><br/>PostgreSQL</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" width="130" /><br/>MySQL</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" width="130" /><br/>MongoDB</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_Athena-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>Athena</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/BigQuery-4285F4?logo=google-cloud&logoColor=white" width="130" /><br/>BigQuery</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" width="130" /><br/>Docker</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### ⚙️ DevOps, Observability & Tooling
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" width="130" /><br/>Git</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=white" width="130" /><br/>CircleCI</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white" width="130" /><br/>Datadog</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Serverless-0D0D0D?logo=serverless&logoColor=white" width="130" /><br/>Serverless</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS_CLI-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>AWS CLI</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 🤖 Applied AI Integration
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white" width="130" /><br/>OpenAI API</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Embeddings-0F172A" width="130" /><br/>Embeddings</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/RAG-3B82F6" width="130" /><br/>RAG</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/ChatGPT-412991?logo=openai&logoColor=white" width="130" /><br/>ChatGPT</td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
 ## 🧠 Learning & Growth
-- Exploring LLM evaluation, GenAI systems, and prompt engineering
-- Sharpening Go and Python for backend automation
-- Studying system design patterns and high-scale architecture
+
+- Running and debugging distributed systems in production
+- Improving alerting, monitoring, and on-call workflows
+- Applying GenAI tools inside existing applications
+- Writing clearer and faster backend code in Python and Go
+- Making better system design decisions through real scaling work
 
 ---
-
-## 🎮 Fun Facts / Interests
-- I read manga more than I should admit
-- I enjoy volleyball, lifting, and dad-juggling toddler chaos
-- I prefer cartoons and anime over live-action anything
-
----
-
-## 📫 Let’s Connect
-
-<table>
-  <tr>
-    <td align="center" width="150">
-      <a href="https://linkedin.com/in/tmood" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn"/><br/>LinkedIn
-      </a>
-    </td>
-    <td align="center" width="150">
-      <a href="mailto:tamer.m.mahmoud@gmail.com">
-        <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" width="30" alt="Email"/><br/>Email
-      </a>
-    </td>
-  </tr>
-</table>
 
 
 ---

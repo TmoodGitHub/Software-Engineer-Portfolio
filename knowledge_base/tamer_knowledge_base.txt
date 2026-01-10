@@ -1,193 +1,275 @@
 --- tamer_resume.txt ---
 Tamer Mahmoud
-Herndon, VA | Open to Remote | 202-731-0762 | tamer.m.mahmoud@gmail.com | linkedin.com/in/tmood
+DC Metro Area · Open to Remote · 202-731-0762 · tamerintech@gmail.com
+github.com/TmoodGitHub · linkedin.com/in/tmood
 Senior Software Engineer | Full-Stack Developer | Cloud & Automation Engineer
-Software Engineer with 10+ years of experience driving technical excellence and building scalable, high-performance systems.
-Expertise in full-stack development, system design, and automation, with ability to enhance system efficiency, streamline data
-pipelines, and lead high-stakes architectural decisions. Spearheaded complex migrations to microservices, improved incident
-response times, and optimized feature delivery through strategic use of automation. Focused on solving challenging technical
-problems, growing into a leadership role, and maximizing impact and earning potential in a remote senior engineering position.
-CORE COMPETENCIES
-Full-Stack Development | System Design & Architecture | Performance Optimization & Scalability | Product Ownership & Delivery
-| User Experience & Interface Design | Data Pipelines & Automation | Code Quality & Best Practices | Mentoring & Technical
-Leadership | Business Alignment & Strategic Thinking | Problem Solving & Debugging | Continuous Improvement & Innovation |
-Cross-Functional Collaboration | Production-Level Engineering
+Software Engineer with 10+ years of experience working across backend, frontend, and cloud systems. Strong background in building and operating production APIs, event-driven services, and data pipelines in AWS and GCP. Experience spans the full production lifecycle, from local development and code review through deployment, environment and infrastructure management, monitoring, debugging, and ongoing feature iteration in remote teams. TECHNICAL SKILLS
+Programming Languages: JavaScript, TypeScript, Python, PHP, Go
+Frontend Frameworks & Libraries: React, Next.js, Tailwind CSS, Ember.js, Radix UI, Angular
+Backend Development: Node.js, Prisma, REST APIs, ElasticSearch (ES)
+Database Technologies: PostgreSQL (Postgres), MySQL, MSSQL, MongoDB (with Mongoose), Sequelize ORM
+Cloud & Infrastructure: AWS (Lambda, SQS, EventBridge), GCP, Docker, Serverless Framework
+Monitoring & CI/CD: CloudWatch, Datadog, CircleCI, GCP Logging
+Design & Collaboration Tools: Figma, LaunchDarkly, Courier
+AI & GenAI Tools: OpenAI API, Embeddings, Prompt Engineering, Large Language Models (LLMs)
+Testing Frameworks & Libraries: QUnit, Cypress, React Testing Library (RTL), Jest, Mocha, Chai
 PROFESSIONAL EXPERIENCE
-Software Engineer | Expel 01/2023 – Present
+Software Engineer | Expel 12/2022 – 06/2025
+•
+Built and supported backend and frontend features for alert, investigation, and incident workflows, updating Node.js APIs, writing and tuning PostgreSQL queries, shaping API responses, and consuming those APIs in React and Ember.js to deliver real-time security views for internal teams and customers.
 ●
-Design, build, and maintain scalable data ingestion and detection pipelines to process alerts, investigations, and incidents from customer environments, enabling automated threat detection and improving security incident response. Develop customizable, self-service platform for internal teams and customers to extract strategic insights from real-time data.
+Worked on Go-based backend API services and Python-based automation and worker jobs triggered through Pub/Sub, handling event-driven processing and operational tasks outside of request and response flows.
 ●
-Develop and deploy high-performance, scalable web applications using React, Ember.js (Classic & Octane), and Node.js, serving thousands of users and supporting real-time data experiences. Collaborate with Product and Design to deliver user-facing features. Manage database architecture and efficient data management with PostgreSQL, Cloud SQL, BigQuery, and Sequelize ORM. Integrate message bus and queue frameworks (e.g., PubSub) and ElasticSearch to enhance data flow efficiency, system communication, advanced data retrieval, and overall system responsiveness.
+Deployed and operated services using the Serverless Framework, defining infrastructure in YAML including Lambda functions, Firehose delivery streams, Athena queries, Glue jobs, S3 buckets, and IAM roles and policies. Investigated and resolved permission and configuration issues when deployments or runtime behavior did not work as expected.
 ●
-Build and automate critical system workflows using Go and Python, improving operational efficiency. Implement robust monitoring and logging solutions with GCP Logger and Datadog, driving a 20% improvement in incident response times by enabling proactive issue detection and faster resolution.
-●
-Improve feature delivery and user engagement by managing feature flagging with LaunchDarkly for controlled rollouts and A/B testing. Streamline communication workflows with Courier to ensure consistent and timely user notifications, increasing user satisfaction and system reliability.
-●
-Shape technical strategy and team performance by setting coding standards, conducting in-depth code reviews, and mentoring junior developers. Act as Subject Matter Expert (SME) for core features, providing high-level API support and influencing architectural decisions to improve scalability and maintainability.
+Set up and maintained CloudWatch logging, metrics, and alarms for backend services. Used CloudWatch Logs Insights and the AWS CLI to inspect logs, review metrics, and validate alarm behavior. Configured alerting flows where CloudWatch alarms triggered SNS and delivered notifications into Slack, and regularly adjusted alarms to reduce noise.
+•
+Queried data stored in S3 using Athena to investigate alert and incident data, validate pipeline output, and support reporting by writing and refining SQL queries over large datasets in AWS.
+•
+Worked with data in GCP using Cloud SQL and BigQuery to support application features and analysis needs, writing SQL queries and validating results used by backend services and internal tooling.
 Full Stack Developer | Sales Boomerang 04/2022 – 10/2022
 ●
-Developed and deployed dynamic full-stack features by building responsive front-end interfaces with Angular, React, and TypeScript, while managing backend operations with Node.js and Sequelize ORM to enable efficient data processing.
+Worked across frontend and backend product features, building user interfaces in Angular and React with TypeScript, implementing Node.js APIs with Sequelize ORM for data access, and coordinating API behavior and response shapes so frontend features could load, update, and display data correctly.
 ●
-Optimized system performance and scalability by refining REST APIs, reducing latency, and improving data retrieval efficiency. Managed AWS services and integrated CI/CD pipelines to streamline deployment processes.
+Updated REST APIs and database queries to support batched request and response patterns, allowing the frontend to request and receive multiple records in a single call while keeping validation and data shaping consistent across features.
 ●
-Enhanced product delivery and team efficiency by identifying performance bottlenecks, automating key workflows, and implementing best practices in code architecture. Collaborated with cross-functional teams to align technical solutions with business goals and user needs.
+Deployed and supported backend infrastructure using CloudFormation defined in YAML, working with AWS services including Lambda, SNS, and SQS. Used CloudWatch logs and alarms to verify releases and troubleshoot issues caused by configuration or infrastructure changes.
 Web Consultant | Rural Sourcing, Inc. 08/2021 – 04/2022
 ●
-Led migration of monolithic legacy system to microservices architecture using PHP, React, and AWS, improving system scalability, maintainability, and deployment speed.
+Worked on breaking apart a legacy PHP application by moving specific functionality into separate services, updating PHP endpoints and React components so features could be developed and deployed independently instead of through the full monolith.
 ●
-Developed Python-based data processing scripts to query aggregated big data, enhancing analytical capabilities and automating key data retrieval processes. Dockerized development environments to improve consistency.
+Added and updated API endpoints used by the React frontend, wiring requests to backend PHP logic and database queries so data could be fetched, updated, and displayed correctly.
 ●
-Enhanced system reliability and uptime by troubleshooting and maintaining APIs, identifying and resolving performance bottlenecks, and implementing solutions to minimize downtime and ensure continuous service availability.
+Wrote Python scripts to pull aggregated data from existing data sources, run queries for reporting use cases, and output results for internal teams instead of manually running queries.
+●
+Used Docker to run the application, services, and scripts locally, matching production dependencies so bugs could be reproduced and tested without relying on shared environments.
+●
+Investigated and fixed API issues by tracing failing requests, identifying where responses were incorrect or missing, and correcting backend logic so endpoints returned expected data instead of errors or empty results.
 Software Engineer | Gallaudet University 10/2012 – 08/2020
 ●
-Designed and developed custom CMS to streamline content management processes, improving data handling. Led migration of large datasets from MS Access to MSSQL, ensuring data integrity and minimal disruption.
+Migrated large datasets from Microsoft Access to Microsoft SQL Server by designing new schemas, writing data migration scripts, validating records, and resolving data inconsistencies so existing applications could continue operating without interruption.
 ●
-Developed and deployed RESTful APIs to enable seamless integration between front-end and back-end systems, enhancing data exchange efficiency and system scalability.
+Built REST APIs that connected frontend pages to backend logic and databases, handling create, read, update, and delete operations so multiple systems could share and update data reliably.
 ●
-Engineered real-time video messaging system using RecordRTC and WebRTC, increasing communication engagement and improving user interaction through innovative video capabilities.
+Implemented a real-time video messaging feature using WebRTC and RecordRTC, handling video capture, recording, and playback to support direct video communication inside the application.
 ●
-Built high-impact productivity tools such as custom online assessment form, automating key tasks and improving team efficiency. Modernized legacy applications by implementing React for dynamic front-end interfaces and Node.js for back-end services, resulting in a more scalable and maintainable codebase.
+Built internal tools such as online assessment and data-entry forms that automated repetitive tasks, replacing manual spreadsheets and email-based workflows with web-based systems tied directly to application databases.
+●
+Modernized older web applications by introducing React for frontend views and Node.js for backend services, incrementally replacing legacy patterns while keeping existing functionality working.
+●
+Applied accessibility standards across custom CMS features and web interfaces, including keyboard navigation, screen reader support, semantic markup, and color contrast, to meet WCAG 2.1 AA requirements.
+PROJECTS
+Software Engineer Portfolio Built a responsive portfolio using React, Vite, and Tailwind CSS, featuring dark/light mode, animated transitions, and a starfield background. Integrated a custom AI chatbot powered by OpenAI and Python, using embeddings over resume and project content to answer common recruiter and developer questions.
+GitHub · Live Demo
 EDUCATION
 Bachelor of Science in Information Technologies | Rochester Institute of Technology
-TECHNICAL SKILLS
-Programming Languages: JavaScript, TypeScript, Python, PHP, GoLang
-Frontend Frameworks & Libraries: React, Next.js, Tailwind CSS, Ember.js, Radix UI, Angular
-Backend Development: Node.js, Prisma, REST APIs, ElasticSearch (ES), Java
-Design & Collaboration Tools: Figma, LaunchDarkly, Courier
-Database Technologies: PostgreSQL (Postgres), MySQL, MSSQL, MongoDB (with Mongoose), Sequelize ORM
-Cloud & Infrastructure: AWS (Lambda, SQS, EventBridge), Google Cloud Platform (GCP), Docker, Serverless Framework
-Automation & CI/CD: Datadog, CircleCI, GCP Logging
 
 --- tamer_github.txt ---
 # TmoodGitHub
 
 # Hi, I'm Tamer Mahmoud 👋
 
-I'm a Senior Software Engineer with over a decade of experience building scalable, performant, and maintainable systems across the stack. I specialize in full-stack development, cloud infrastructure, and automation, with a strong track record of leading complex migrations, mentoring developers, and improving engineering workflows.
+Software Engineer with 10+ years of experience working across backend, frontend, and cloud systems. Strong background in
+building and operating production APIs, event-driven services, and data pipelines in AWS and GCP. Experience spans the full
+production lifecycle, from local development and code review through deployment, environment and infrastructure
+management, monitoring, debugging, and ongoing feature iteration in remote teams.
+
+---
+
+## 💼 Core Competencies
+
+<div align="center">
+
+<table style="border: none; border-collapse: separate; border-spacing: 20px;">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>☁️ Cloud & Distributed Systems</h4>
+      <ul>
+        <li>Cloud-native systems on AWS and GCP</li>
+        <li>Event-driven and serverless architectures</li>
+        <li>Environment isolation and access control</li>
+        <li>Monitoring, alerting, and production operations</li>
+        <li>Serverless Framework and infrastructure-as-code workflows</li>
+        <li>Cloud observability with CloudWatch and Datadog</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🔧 Backend & Data Engineering</h4>
+      <ul>
+        <li>Production API ownership</li>
+        <li>Async and event-driven services</li>
+        <li>SQL-heavy systems and query optimization</li>
+        <li>Data ingestion and processing pipelines (Athena, Firehose)</li>
+        <li>Python, Go, and Node.js backend services</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>📐 System Design & Architecture</h4>
+      <ul>
+        <li>Microservices and modular APIs</li>
+        <li>Scalability and reliability tradeoffs</li>
+        <li>Cloud-native design patterns</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h4>🛠 Full-Stack Development</h4>
+      <ul>
+        <li>React, Ember.js, Next.js, Angular</li>
+        <li>Node.js, Python, PHP</li>
+        <li>REST APIs and GraphQL</li>
+        <li>End-to-end feature delivery</li>
+      </ul>
+    </td>
+    <td>
+      <h4>🛢 Databases & Persistence</h4>
+      <ul>
+        <li>PostgreSQL, MySQL, MongoDB</li>
+        <li>Schema design and migrations</li>
+        <li>Query performance and indexing</li>
+        <li>ORMs including Sequelize and Prisma</li>
+      </ul>
+    </td>
+    <td>
+      <h4>🎨 UI/UX & Collaboration</h4>
+      <ul>
+        <li>Tailwind, Radix UI, Figma</li>
+        <li>Clean, responsive interfaces</li>
+        <li>Code reviews and mentorship</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
 ## 🧰 Tech Stack
 
+---
+
+### 🎨 Frontend
+
+<div align="center">
+
 <table>
   <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" /><br/>HTML
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" /><br/>CSS
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" /><br/>JavaScript
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" /><br/>React
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" /><br/>TypeScript
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="40" /><br/>Next.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" /><br/>Node.js
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" /><br/>Express
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" /><br/>PostgreSQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" /><br/>MySQL
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" width="40" /><br/>Sequelize
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" width="40" /><br/>Prisma
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="40" /><br/>GraphQL
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /><br/>Git
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" /><br/>Docker
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40" /><br/>AWS
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40" /><br/>GCP
-    </td>
-    <td align="center" width="100">
-      <img src="https://img.icons8.com/ios-filled/50/000000/jira.png" width="40" /><br/>Jira
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" width="40" /><br/>CircleCI
-    </td>
-    <td align="center" width="100">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" /><br/>Tailwind
-    </td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" width="130" /><br/>React</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" width="130" /><br/>Next.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white" width="130" /><br/>Angular</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Ember.js-E04E39?logo=ember.js&logoColor=white" width="130" /><br/>Ember.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white" width="130" /><br/>Tailwind</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Radix_UI-0F172A" width="130" /><br/>Radix UI</td>
   </tr>
 </table>
 
----
-
-## 🚀 Projects
-Check out some of the things I’ve been building:
-
-- 🛠️ [Tmood-Academy](https://github.com/TmoodGitHub/Tmood-Academy): A full-stack project demonstrating CRUD features, filtering, and dashboard design
-- 🌌 [Vite React Portfolio](https://vite-react-portfolio-lime.vercel.app/): My personal portfolio, built with Vite, React, Tailwind, and Radix UI
+</div>
 
 ---
 
-## 🎯 A Bit About Me
-- 🧠 I think debugging is like solving escape room puzzles, except the bugs don’t want you to win.
-- 🍳 I code better after a good Kashi waffle bites cereal 🤤.
-- 🕹️ My laptop has survived intense full-stack battles and survived. Barely.
-- 🔄 Currently working on leveling up my AI skills—without getting replaced by a toaster.
+### 🔧 Backend & Languages
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" width="130" /><br/>Node.js</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" width="130" /><br/>Python</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" width="130" /><br/>Go</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" width="130" /><br/>PHP</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/REST_API-005571?logo=swagger&logoColor=white" width="130" /><br/>REST API</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white" width="130" /><br/>GraphQL</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### ☁️ Cloud Platforms & Services
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>AWS</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/GCP-4285F4?logo=google-cloud&logoColor=white" width="130" /><br/>GCP</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS_Lambda-FF9900?logo=aws-lambda&logoColor=white" width="130" /><br/>Lambda</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_S3-569A31?logo=amazon-s3&logoColor=white" width="130" /><br/>S3</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_Kinesis_Firehose-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>Firehose</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_CloudWatch-FF4F8B?logo=amazon-aws&logoColor=white" width="130" /><br/>CloudWatch</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 🛢 Databases & Infrastructure
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" width="130" /><br/>PostgreSQL</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" width="130" /><br/>MySQL</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" width="130" /><br/>MongoDB</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Amazon_Athena-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>Athena</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/BigQuery-4285F4?logo=google-cloud&logoColor=white" width="130" /><br/>BigQuery</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" width="130" /><br/>Docker</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### ⚙️ DevOps, Observability & Tooling
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" width="130" /><br/>Git</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/CircleCI-343434?logo=circleci&logoColor=white" width="130" /><br/>CircleCI</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white" width="130" /><br/>Datadog</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Serverless-0D0D0D?logo=serverless&logoColor=white" width="130" /><br/>Serverless</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/AWS_CLI-232F3E?logo=amazon-aws&logoColor=white" width="130" /><br/>AWS CLI</td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 🤖 Applied AI Integration
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/OpenAI_API-412991?logo=openai&logoColor=white" width="130" /><br/>OpenAI API</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/Embeddings-0F172A" width="130" /><br/>Embeddings</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/RAG-3B82F6" width="130" /><br/>RAG</td>
+    <td align="center" width="150"><img src="https://img.shields.io/badge/ChatGPT-412991?logo=openai&logoColor=white" width="130" /><br/>ChatGPT</td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
 ## 🧠 Learning & Growth
-- Exploring LLM evaluation, GenAI systems, and prompt engineering
-- Sharpening Go and Python for backend automation
-- Studying system design patterns and high-scale architecture
+
+- Running and debugging distributed systems in production
+- Improving alerting, monitoring, and on-call workflows
+- Applying GenAI tools inside existing applications
+- Writing clearer and faster backend code in Python and Go
+- Making better system design decisions through real scaling work
 
 ---
-
-## 🎮 Fun Facts / Interests
-- I read manga more than I should admit
-- I enjoy volleyball, lifting, and dad-juggling toddler chaos
-- I prefer cartoons and anime over live-action anything
-
----
-
-## 📫 Let’s Connect
-
-<table>
-  <tr>
-    <td align="center" width="150">
-      <a href="https://linkedin.com/in/tmood" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30" alt="LinkedIn"/><br/>LinkedIn
-      </a>
-    </td>
-    <td align="center" width="150">
-      <a href="mailto:tamer.m.mahmoud@gmail.com">
-        <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" width="30" alt="Email"/><br/>Email
-      </a>
-    </td>
-  </tr>
-</table>
 
 
 ---
@@ -196,11 +278,9 @@ Check out some of the things I’ve been building:
 
 --- tamer_linkedin.txt ---
 About
-I’ve spent the last 10+ years building systems that scale, evolve, and solve real problems. From startups to established tech teams, I’ve worked across industries (education, cybersecurity, fintech) helping companies turn complex technical challenges into streamlined, performant solutions. What started as a curiosity for how things work became a career focused on crafting full-stack architectures, automating workflows, and designing software that’s not just functional, but dependable, efficient, and built to last.
+For over 10 years, I have worked on backend, frontend, and cloud systems that support real production workflows across education, cybersecurity, and financial services. My experience includes building and operating APIs, event-driven services, and data pipelines in AWS and GCP, spanning local development, code review, deployment, infrastructure management, monitoring, debugging, and ongoing feature iteration in distributed teams.
 
-Along the way, I’ve contributed to migrations from monoliths to microservices, improved deployment pipelines, and mentored developers toward stronger, cleaner code. I’m at home working across the stack, whether building frontend interfaces that enhance user experience or shaping backend systems that drive business-critical operations. I care deeply about performance, collaboration, and writing code that teams can trust and build on. Let’s connect!
-
-Contact: tamer.m.mahmoud@gmail.comI’ve spent the last 10+ years building systems that scale, evolve, and solve real problems. From startups to established tech teams, I’ve worked across industries (education, cybersecurity, fintech) helping companies turn complex technical challenges into streamlined, performant solutions. What started as a curiosity for how things work became a career focused on crafting full-stack architectures, automating workflows, and designing software that’s not just functional, but dependable, efficient, and built to last. Along the way, I’ve contributed to migrations from monoliths to microservices, improved deployment pipelines, and mentored developers toward stronger, cleaner code. I’m at home working across the stack, whether building frontend interfaces that enhance user experience or shaping backend systems that drive business-critical operations. I care deeply about performance, collaboration, and writing code that teams can trust and build on. Let’s connect! Contact: tamer.m.mahmoud@gmail.com
+I have contributed to migrations away from tightly coupled systems toward more maintainable service-oriented architectures, improved deployment and monitoring pipelines, and supported long-lived codebases through clean, readable implementations. I work across user-facing interfaces, backend services, and data layers, collaborating closely with engineers, designers, and product managers to deliver features end-to-end while keeping systems reliable and practical to operate in production.
 
 Top skills
 Full-Stack Software Development • System Architecture & Design • Cloud Infrastructure & Automation • Scalable Web Application Development • Technical Leadership & Mentorship
