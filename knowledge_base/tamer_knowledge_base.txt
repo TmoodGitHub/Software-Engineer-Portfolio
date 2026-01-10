@@ -65,6 +65,8 @@ EDUCATION
 Bachelor of Science in Information Technologies | Rochester Institute of Technology
 
 --- tamer_github.txt ---
+Github URL: https://github.com/TmoodGitHub
+
 # TmoodGitHub
 
 # Hi, I'm Tamer Mahmoud 👋
@@ -277,6 +279,7 @@ management, monitoring, debugging, and ongoing feature iteration in remote teams
 
 
 --- tamer_linkedin.txt ---
+linkedin URL: https://www.linkedin.com/in/tmood/
 About
 For over 10 years, I have worked on backend, frontend, and cloud systems that support real production workflows across education, cybersecurity, and financial services. My experience includes building and operating APIs, event-driven services, and data pipelines in AWS and GCP, spanning local development, code review, deployment, infrastructure management, monitoring, debugging, and ongoing feature iteration in distributed teams.
 
