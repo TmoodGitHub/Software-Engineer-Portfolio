@@ -1,4 +1,9 @@
-import { Bot, Briefcase, Code, User } from 'lucide-react';
+import {
+  Cloud,
+  Database,
+  LayoutTemplate,
+  Monitor,
+} from 'lucide-react';
 
 export const AboutMe = () => {
   return (
@@ -14,49 +19,36 @@ export const AboutMe = () => {
               Senior Software Engineer
             </h3>
             <p className='text-muted-foreground'>
-              I have spent over a decade building and
-              operating software systems that scale, adapt,
-              and solve real business problems across
-              education, cybersecurity, and financial
-              services software. My work spans full-stack
-              development backed by cloud infrastructure,
-              database design, and command-line tooling,
-              with a focus on systems that are reliable,
-              observable, and practical to operate in
-              production. What began as curiosity about how
-              software works evolved into a career centered
-              on building systems teams can understand,
-              maintain, and trust.
+              I've spent 10+ years building and operating
+              production systems across cybersecurity, ad
+              tech, and enterprise platforms. Most of my
+              work lives in the backend and data layer:
+              APIs, event-driven pipelines, and ingestion
+              and reporting workflows running on AWS and
+              GCP.
             </p>
             <p className='text-muted-foreground'>
-              I have designed and worked with relational and
-              non-relational databases, built and maintained
-              cloud-based services using managed
-              infrastructure, and developed internal CLI
-              tools to support development workflows,
-              automation, and operational tasks. I have
-              contributed to migrations away from tightly
-              coupled systems toward more maintainable
-              service-oriented architectures, improved
-              deployment and monitoring pipelines, and
-              supported teams by reinforcing clean, readable
-              code. I am comfortable working across the
-              stack, from user-facing interfaces to backend
-              services and data layers that support
-              business-critical operations. I value
-              performance, collaboration, and engineering
-              decisions that make systems easier to run,
-              debug, and extend.
+              At Expel I owned ingestion and detection
+              pipelines processing millions of security
+              events per day, cut slow queries by 60%, and
+              shipped a solo schema migration across 140+
+              files with zero downtime. At The Media Trust I
+              built reconciliation pipelines processing
+              billions of ad events monthly and redesigned
+              alerting for a 24/7 malware operations desk. I
+              get genuinely interested in hard problems,
+              especially the kind involving high-throughput
+              data, unreliable systems, and workflows that
+              matter to real people.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
               <a href='#contact' className='cosmic-button'>
-                {' '}
                 Get In Touch
               </a>
 
               <a
-                href='/TamerInTech.pdf'
+                href='/TamerInTech-BE.pdf'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'
@@ -65,20 +57,23 @@ export const AboutMe = () => {
               </a>
             </div>
           </div>
+
           <div className='grid grid-cols-1 gap-6'>
             <div className='gradient-border p-6 card-hover'>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <Code className='h-6 w-6 text-primary' />
+                  <Database className='h-6 w-6 text-primary' />
                 </div>
                 <div className='text-left'>
                   <h4 className='font-semibold text-lg'>
-                    Full-Stack Engineering
+                    Backend & Data Systems
                   </h4>
                   <p className='text-muted-foreground'>
-                    Cloud-based services, database-backed
-                    systems, frontend and backend delivery
-                    from design to production
+                    Production APIs, async and event-driven
+                    services, ingestion and reporting
+                    pipelines, schema design and query
+                    optimization across SQL and NoSQL at
+                    scale
                   </p>
                 </div>
               </div>
@@ -87,16 +82,17 @@ export const AboutMe = () => {
             <div className='gradient-border p-6 card-hover'>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <User className='h-6 w-6 text-primary' />
+                  <Cloud className='h-6 w-6 text-primary' />
                 </div>
                 <div className='text-left'>
                   <h4 className='font-semibold text-lg'>
-                    Product-Driven Development
+                    Cloud & Infrastructure
                   </h4>
                   <p className='text-muted-foreground'>
-                    User-centered features, real-time
-                    interfaces, and practical user
-                    experience decisions
+                    AWS and GCP workloads including Lambda,
+                    Kinesis, Pub/Sub, Athena, and BigQuery.
+                    Infrastructure as code, environment
+                    isolation, and access control
                   </p>
                 </div>
               </div>
@@ -105,16 +101,17 @@ export const AboutMe = () => {
             <div className='gradient-border p-6 card-hover'>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <Briefcase className='h-6 w-6 text-primary' />
+                  <Monitor className='h-6 w-6 text-primary' />
                 </div>
                 <div className='text-left'>
                   <h4 className='font-semibold text-lg'>
-                    Technical Leadership
+                    Observability & Reliability
                   </h4>
                   <p className='text-muted-foreground'>
-                    Code quality standards, system design
-                    guidance, and mentoring engineers
-                    through complex changes
+                    CloudWatch, Datadog, GCP Logging.
+                    Alerting design, incident response, and
+                    debugging complex distributed workflows
+                    under production pressure
                   </p>
                 </div>
               </div>
@@ -123,17 +120,17 @@ export const AboutMe = () => {
             <div className='gradient-border p-6 card-hover'>
               <div className='flex items-start gap-4'>
                 <div className='p-3 rounded-full bg-primary/10'>
-                  <Bot className='h-6 w-6 text-primary' />
+                  <LayoutTemplate className='h-6 w-6 text-primary' />
                 </div>
                 <div className='text-left'>
                   <h4 className='font-semibold text-lg'>
-                    Artificial Intelligence Engineering
+                    Full-Stack Delivery
                   </h4>
                   <p className='text-muted-foreground'>
-                    Building and integrating systems using
-                    large language models, embeddings, and
-                    generative artificial intelligence
-                    applications
+                    React, Next.js, TypeScript. I can own a
+                    feature end-to-end when the role calls
+                    for it, and I care about what ships, not
+                    just my layer of it
                   </p>
                 </div>
               </div>

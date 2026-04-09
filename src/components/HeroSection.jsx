@@ -22,20 +22,14 @@ export const HeroSection = () => {
             </span>
           </h1>
 
-          <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-            I work on production software systems with a
-            focus on scalability, reliability, and long-term
-            maintainability. My background spans full-stack
-            development, cloud infrastructure, and data
-            systems, with an emphasis on software that teams
-            can operate and evolve in production.
+          <p className='text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
+            Senior software engineer with 10+ years building
+            production systems across cybersecurity, ad
+            tech, and enterprise platforms. I work in the
+            backend and data layer: APIs, event-driven
+            pipelines, and cloud infrastructure on AWS and
+            GCP.
           </p>
-
-          {/* <div className="pt-4 opacity-0 animate-fade-in-delay-5">
-            <a href="#projects" className="cosmic-button">
-              View My Works
-            </a>
-          </div> */}
         </div>
       </div>
 

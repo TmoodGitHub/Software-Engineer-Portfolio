@@ -1,0 +1,56 @@
+Tamer Mahmoud
+Northern Virginia · Open to Remote · 202-731-0762 · tamerintech@gmail.com
+github.com/TmoodGitHub · linkedin.com/in/tmood Full-stack engineer with 10+ years shipping production features across cybersecurity, ad tech, and enterprise platforms. Gets genuinely interested in hard problems, especially the kind where the data layer, the API, and the UI all have to work together for something that matters to real people. Experienced owning features end to end, from database design through backend services to React and Ember frontends, and operating infrastructure on AWS and GCP. Core stack: JavaScript/TypeScript, Python, Go, React, Node.js, PostgreSQL, MongoDB. PROFESSIONAL EXPERIENCE
+Senior Software Engineer | The Media Trust Sep 2025 – Mar 2026
+•
+Extended the partner dashboard to surface GAM order data with multi-select filtering and external email delivery, streamlining daily reporting workflows for 600+ publisher clients including Microsoft, Fox News, and major UK media publishers, reducing back-and-forth on ad delivery data and cutting manual report requests from the ops team.
+•
+Built and maintained product features across the attribution dashboard, including a new filtering UI with multi-select search, surfacing creative ID and GAM order data to the interface, updating CSV exports, and fixing a broken copy-paste interaction, delivering frontend changes across React and PHP that touched daily workflows for the ops and publisher teams.
+•
+Redesigned CloudWatch-to-Slack alerting for sync and blocker workflows supporting a 24/7 malware operations desk processing 2,300+ active infections daily; added structured diagnostic context and automated daily status summaries that reduced triage response time from hours to minutes.
+•
+Built historical backfills, daily syncs, and a rolling 7-day reconciliation pipeline across Lambda, Kinesis, PostgreSQL, MongoDB, GAM, and Amazon Athena, processing billions of ad events monthly and surfacing them as business-readable reporting in Qlik, eliminating recurring manual cleanup and reducing analyst rework across downstream reporting.
+•
+Overhauled the Docker-based local dev environment and rewrote onboarding documentation for a ~30-person engineering org, cutting new engineer ramp time from ~4 weeks to under 2 weeks and reducing interruptions across the engineering team during onboarding.
+Software Engineer | Expel Dec 2022 – Jun 2025
+•
+Owned the Emerging Threat feature end to end, building full-stack investigation tooling in React and Node.js from hunt query execution through structured findings and analyst exports, replacing a manual process that previously took days to weeks across multiple staff, averaging 2-3 investigations per emerging threat before general availability.
+•
+Migrated 10+ UI components from Ember.js to React as part of a frontend modernization effort, converting tables, buttons, and interactive components while maintaining feature parity across the existing application.
+•
+Refactored PostgreSQL and BigQuery query patterns and indexing strategies, cutting slow queries by 60% and improving search response times by 50% during peak ingestion.
+•
+Designed and operated ingestion and detection pipelines processing millions of security events per day across 100+ vendor integrations, implementing normalization, enrichment, and correlation logic that doubled throughput and maintained 99.9%+ pipeline availability.
+•
+Led a solo backward-compatible schema migration across 140+ files, preserving legacy routes and dual naming patterns simultaneously, shipping in 3 weeks with zero downtime.
+•
+Automated event-driven detection workflows in Go and Python and tuned alerting in GCP Logging and Datadog, cutting incident response time by 20% and alert noise by 30% across detection and investigation workflows.
+•
+Built the device failure tracking schema from scratch to support flexible querying and frontend integration, later becoming the foundation for automation rules and timeline reports, reducing manual analyst work and improving visibility into incident response.
+Full Stack Developer | Sales Boomerang Apr 2022 – Oct 2022
+•
+Built full-stack features across Angular, React, TypeScript, Node.js, and Sequelize for a borrower intelligence platform serving 170+ mortgage lenders, delivering customer-facing functionality supporting near-real-time alert generation across millions of borrower records.
+•
+Worked on event-driven pipeline infrastructure using AWS CloudFormation, CloudWatch, Kinesis, SQS, and SNS, supporting the data flows that powered automated borrower alerts during a period of 130%+ quarter over quarter alert volume growth.
+•
+Improved engineering efficiency by automating repetitive workflows, restructuring shared code, and reducing friction in the daily development cycle across the team.
+Web Consultant | Rural Sourcing, Inc. Aug 2021 – Apr 2022
+•
+Built Python scripts to automate recurring report generation across multiple databases, eliminating manual data retrieval and delivering consistent reporting outputs to the client team.
+•
+Supported backend development for a client-facing portal, working across Java and database-heavy stored procedures to maintain data integrity and keep production workflows running reliably.
+•
+Improved local development consistency by containerizing the team's environment with Docker, reducing setup variability and making workflows easier to reproduce across the team.
+Software Engineer | Gallaudet University Oct 2012 – Aug 2020
+•
+Built and maintained the core technology platform for the ASLPI program, a nationally recognized ASL proficiency evaluation system at Gallaudet University supporting thousands of examinees annually across faculty tenure, graduation, and career placement decisions, serving as the sole engineer across the full stack from database to UI.
+•
+Led frontend modernization as the sole engineer, introducing React and Node.js to replace legacy interfaces, building responsive UI components from scratch based directly on evaluator input, and implemented WCAG 2.1 AA accessibility improvements across all web interfaces including keyboard navigation, ARIA labeling, and screen-reader compatibility, serving approximately 2,500 students and staff at a federally chartered university.
+•
+Designed and built a custom CMS and online assessment tooling that automated evaluation scheduling and administrative workflows for 15 ASLPI staff, cutting processes that previously took weeks down to hours.
+•
+Rebuilt the ASLPI data layer from the ground up on MSSQL, replacing a legacy system with a scalable database storing 30+ years of evaluation records, rater reliability analytics, and longitudinal language learning histories.
+•
+Developed a remote video review system using RecordRTC and WebRTC enabling evaluators to review recorded ASL interviews from any location, supporting the program's transition from videophone-based to web-based evaluation. TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Go, PHP Frontend: React, Next.js, Ember.js, Angular, Tailwind CSS, WebRTC Backend: Node.js, REST APIs, GraphQL, Sequelize ORM, API Design, Event-Driven Architecture Databases & Analytics: PostgreSQL, MySQL, MSSQL, MongoDB, BigQuery, Amazon Athena Cloud & Infrastructure: AWS (Lambda, S3, CloudFormation, IAM, SNS, CloudFront, Kinesis Firehose), GCP (Pub/Sub), Docker, Serverless Framework Observability & CI/CD: CloudWatch, Datadog, GCP Logging, CircleCI Testing: Jest, Mocha, Chai, Cypress, React Testing Library, QUnit EDUCATION
+Bachelor of Science in Information Technologies | Rochester Institute of Technology
