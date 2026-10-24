@@ -4,6 +4,54 @@ import { ArrowRight, ExternalLink } from 'lucide-react';
 const projects = [
   {
     id: 1,
+    title: 'AI Security Triage',
+    description:
+      'AI-assisted triage of AWS CloudTrail events. Claude suggests a severity with its reasoning as schema-checked structured output, using related activity from the same user or IP. Analysts review every finding in a React dashboard, and hand-labeled evals track accuracy, too-low vs too-high misses, cost per 1,000 alerts, and latency. AWS deployment with Terraform in progress.',
+    image: '/projects/project_placeholder.png',
+    tags: [
+      'TypeScript',
+      'Python',
+      'PostgreSQL',
+      'Claude API',
+      'React',
+      'Evals',
+    ],
+    demoUrl: null,
+    github:
+      'https://github.com/TmoodGitHub/ai-security-triage',
+  },
+  {
+    id: 2,
+    title: 'Plant Health Predictor',
+    description:
+      'Upload 2 to 10 photos of a plant taken over time and get a health report: plant identification, a health score per photo, trends across the set, and a 7 to 14 day prediction with recommended actions. Model output is schema-checked, with retries, rate limiting, and separate sessions per user.',
+    image: '/projects/project_placeholder.png',
+    tags: ['Node.js', 'Express', 'Claude API', 'Vision AI'],
+    demoUrl: null,
+    github:
+      'https://github.com/TmoodGitHub/plant-health-predictor',
+  },
+  {
+    id: 3,
+    title: 'AI-Powered Portfolio',
+    description:
+      'This site, with a chatbot that answers questions about my work. A Node.js serverless API uses OpenAI embeddings, built by a Python script, to find the most relevant parts of my resume, GitHub, and LinkedIn, and answers from that content.',
+    image: '/projects/project_placeholder.png',
+    tags: [
+      'React',
+      'Vite',
+      'Tailwind CSS',
+      'Node.js',
+      'OpenAI API',
+      'Embeddings',
+    ],
+    demoUrl:
+      'https://vite-react-portfolio-lime.vercel.app/',
+    github:
+      'https://github.com/TmoodGitHub/Software-Engineer-Portfolio',
+  },
+  {
+    id: 4,
     title: 'tmoodgit',
     description:
       'A fully functional Git implementation built from scratch in Node.js. Implements the actual internals: content-addressable object storage, SHA-1 hashing, a JSON-backed staging index, branch refs, HEAD resolution, and working tree restoration. Includes a complete CLI and a line-level LCS diff engine.',
@@ -17,43 +65,6 @@ const projects = [
     ],
     demoUrl: null,
     github: 'https://github.com/TmoodGitHub/tmoodgit',
-  },
-  {
-    id: 2,
-    title: 'AI-Powered Portfolio',
-    description:
-      'Personal portfolio with a custom AI chatbot. Python backend using the OpenAI API with embeddings over structured resume, GitHub, and LinkedIn content to answer recruiter and developer questions in real time.',
-    image: '/projects/project_placeholder.png',
-    tags: [
-      'React',
-      'Vite',
-      'Tailwind CSS',
-      'Python',
-      'OpenAI API',
-      'Embeddings',
-    ],
-    demoUrl:
-      'https://vite-react-portfolio-lime.vercel.app/',
-    github:
-      'https://github.com/TmoodGitHub/vite-react-portfolio',
-  },
-  {
-    id: 3,
-    title: 'Currency Exchange App',
-    description:
-      'Full-stack currency exchange app built end-to-end. React frontend, Node.js/Express backend, PostgreSQL with Sequelize ORM, and external exchange rate API integration.',
-    image: '/projects/project_placeholder.png',
-    tags: [
-      'React',
-      'Node.js',
-      'Express',
-      'PostgreSQL',
-      'Sequelize',
-    ],
-    demoUrl:
-      'https://basic-currency-exchange-client.onrender.com/',
-    github:
-      'https://github.com/TmoodGitHub/basic-currency-exchange',
   },
 ];
 

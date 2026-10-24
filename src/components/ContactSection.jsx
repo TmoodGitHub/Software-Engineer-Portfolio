@@ -21,9 +21,9 @@ export const ContactSection = () => {
 
     setTimeout(() => {
       toast({
-        title: 'Message sent!',
+        title: 'This form is not connected yet',
         description:
-          "Thank you for your message. I'll get back to you soon.",
+          'Please email me at tamerintech@gmail.com instead.',
       });
 
       setSubmitting(false);
@@ -163,7 +163,7 @@ export const ContactSection = () => {
                 type='submit'
                 disabled={isSubmitting}
                 className={cn(
-                  'cosmic-button w-full flex items-center justify-center gap-2'
+                  'cosmic-button w-full flex items-center justify-center gap-2',
                 )}
               >
                 {isSubmitting

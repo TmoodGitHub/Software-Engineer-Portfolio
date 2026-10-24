@@ -1,6 +1,6 @@
 # 🤖 Software Engineer Portfolio with AI Chatbot
 
-A fully responsive developer portfolio demonstrating full-stack engineering, UI polish, and AI-powered features. Built with React, Vite, and Tailwind CSS, the site emphasizes performance, clean UX, and real-world integrations, including a custom AI chatbot trained on resume, GitHub, and LinkedIn content.
+A fully responsive developer portfolio demonstrating full-stack engineering, UI polish, and AI-powered features. Built with React, Vite, and Tailwind CSS, the site emphasizes performance, clean UX, and real-world integrations, including a custom AI chatbot that answers questions by looking up the relevant parts of my resume, GitHub, and LinkedIn.
 
 ---
 
@@ -12,13 +12,13 @@ A fully responsive developer portfolio demonstrating full-stack engineering, UI 
 
 ## ✨ Features
 
-* Lightning-fast React and Vite front end
-* Custom AI chatbot using OpenAI and embedding-based retrieval
-* Knowledge base pipeline built in Python and Node.js
-* Theme toggle with light and dark modes
-* Responsive layout with Tailwind CSS
-* Animated transitions and section-based navigation
-* Starry animated background with occasional shooting meteors in dark mode
+- Lightning-fast React and Vite front end
+- Custom AI chatbot using OpenAI and embedding-based retrieval
+- Knowledge base pipeline built in Python and Node.js
+- Theme toggle with light and dark modes
+- Responsive layout with Tailwind CSS
+- Animated transitions and section-based navigation
+- Starry animated background with occasional shooting meteors in dark mode
 
 ---
 
@@ -63,11 +63,11 @@ A fully responsive developer portfolio demonstrating full-stack engineering, UI 
 
 ## 🧠 What This Project Demonstrates
 
-* Building and deploying a production-ready personal portfolio
-* Integrating AI features into a real user-facing application
-* Designing a retrieval-based chatbot using embeddings
-* Coordinating frontend, backend, and data pipelines
-* Emphasizing performance, UX clarity, and maintainable structure
+- Building and deploying a production-ready personal portfolio
+- Integrating AI features into a real user-facing application
+- Designing a retrieval-based chatbot using embeddings
+- Coordinating frontend, backend, and data pipelines
+- Emphasizing performance, UX clarity, and maintainable structure
 
 ---
 
@@ -75,9 +75,9 @@ A fully responsive developer portfolio demonstrating full-stack engineering, UI 
 
 ### Prerequisites
 
-* Node.js 18+ (Node 20 recommended)
-* OpenAI API key
-* Python 3.10+ (only required to regenerate embeddings)
+- Node.js 18+ (Node 20 recommended)
+- OpenAI API key
+- Python 3.10+ (only required to regenerate embeddings)
 
 ---
 
