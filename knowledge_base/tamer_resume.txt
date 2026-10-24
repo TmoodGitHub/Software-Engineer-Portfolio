@@ -1,0 +1,69 @@
+Tamer Mahmoud
+Northern Virginia · Open to Remote · 202-731-0762 · tamerintech@gmail.com · github.com/TmoodGitHub
+
+PROFESSIONAL SUMMARY
+Software engineer with 10 years of experience building production systems: cloud services, data pipelines, microservices and APIs, and databases, including system design and untangling legacy systems. Ran detection pipelines handling millions of security events per day at 99.9%+ availability, and reconciliation pipelines over billions of ad events per month. Building with LLMs through independent projects: retrieval (RAG), vision models, structured output, and AI-assisted triage. AWS Certified Solutions Architect - Associate, which backs up my work in cloud architecture. Core stack: TypeScript, Node.js, Python, React, PostgreSQL, AWS.
+
+CERTIFICATIONS
+AWS Certified Solutions Architect - Associate | Amazon Web Services | Aug 2026
+
+PROFESSIONAL EXPERIENCE
+
+Independent Projects and AWS Certification | Apr 2026 - Present
+- Earned AWS Certified Solutions Architect - Associate (Aug 2026), covering high-availability design, security, cost optimization, and the AWS Well-Architected Framework.
+- Building AI Security Triage (in progress): AI-assisted severity triage of AWS CloudTrail events. TypeScript intake and a Findings API with JWT sign-in, PostgreSQL storage, and a Python triage step that sends each event and its related activity (same user or IP within 24 hours) to Claude, which returns a severity with its reasoning as schema-checked structured output. Hand-labeled eval sets measure exact matches, misses rated too low or too high, cost per 1,000 alerts and seconds per alert. A React analyst dashboard records whether the AI's severity was right. Tests run on every push with GitHub Actions. Deployment to AWS with Terraform is in progress.
+
+Senior Software Engineer | The Media Trust | Sep 2025 - Mar 2026
+- Built historical backfills, daily syncs, and a rolling 7-day reconciliation pipeline across Lambda, Kinesis, PostgreSQL, MongoDB, GAM, and Amazon Athena, processing billions of ad events monthly and eliminating recurring manual cleanup for downstream reporting.
+- Redesigned CloudWatch-to-Slack alerting for sync and blocker workflows supporting a 24/7 malware operations desk processing 2,300+ active infections daily; added structured diagnostic context and automated daily status summaries that reduced triage response time from hours to minutes.
+- Designed and extended backend APIs powering the partner dashboard, adding multi-select filtering and external data delivery on top of GAM order data for 600+ publisher clients including Microsoft and Fox News, cutting manual report requests from the ops team.
+- Overhauled the Docker-based local dev environment and rewrote onboarding documentation for a ~30-person engineering org, cutting new engineer ramp time from ~4 weeks to under 2 weeks.
+
+Software Engineer | Expel | Dec 2022 - Jun 2025
+- Designed and operated ingestion and detection pipelines processing millions of security events per day across 100+ vendor integrations, implementing normalization, enrichment, and correlation logic that doubled throughput and maintained 99.9%+ pipeline availability.
+- Built the Node.js API, hunt query execution engine, and React investigation UI for the Emerging Threat feature, taking investigations from hunt queries through structured findings and analyst exports and replacing a manual process that took days to weeks across multiple staff.
+- Led a solo backward-compatible schema migration across 140+ files, preserving legacy routes and dual naming patterns, shipped in 3 weeks with zero downtime.
+- Refactored PostgreSQL and BigQuery query patterns and indexing strategies, cutting slow queries by 60% and improving search response times by 50% during peak ingestion.
+- Resolved a ticket for missing data in an Elasticsearch-backed table by tracing it to events from a Go microservice that were never handled, a long-standing tech debt item. Added Go handlers for the missing events, with tests and test documents, and added a test confirming the data was visible and displayed correctly in the table.
+
+About Go: Tamer's Go experience is the work above, in an existing Go microservice at Expel. His Pub/Sub work on GCP was in Node.js, not Go.
+
+Full Stack Developer | Sales Boomerang | Apr 2022 - Oct 2022
+- Built backend and frontend features in Angular, React, TypeScript, Node.js, and Sequelize for a borrower intelligence platform serving 170+ mortgage lenders, supporting near-real-time alert generation across millions of borrower records.
+- Built event-driven pipeline infrastructure using AWS CloudFormation, CloudWatch, Kinesis, SQS, and SNS, supporting automated borrower alerts during a period of 130%+ quarter-over-quarter alert volume growth.
+- Automated repetitive development workflows and restructured shared code, reducing friction in the team's daily development cycle.
+
+Web Consultant | Rural Sourcing, Inc. (client engagement) | Aug 2021 - Apr 2022
+- Built Python scripts to automate recurring report generation across multiple databases, eliminating manual data retrieval for the client team.
+- Supported backend development for a client-facing portal, working with database-heavy stored procedures to maintain data integrity and keep production workflows running reliably.
+- Containerized the team's local development environment with Docker, reducing setup variability across the team.
+
+Software Engineer | Gallaudet University | Oct 2012 - Aug 2020
+- As sole engineer, built and maintained the core platform for the ASLPI program, a nationally recognized ASL proficiency evaluation system supporting thousands of examinees annually across faculty tenure, graduation, and career placement decisions.
+- Rebuilt the ASLPI data layer from the ground up on MSSQL, replacing a legacy system with a scalable database storing 30+ years of evaluation records, rater reliability analytics, and longitudinal language learning histories.
+- Designed and built a custom CMS and online assessment tooling that automated evaluation scheduling and administrative workflows for 15 ASLPI staff, cutting processes that previously took weeks down to hours.
+- Introduced Node.js and React as part of a platform modernization and implemented WCAG 2.1 AA accessibility (keyboard navigation, ARIA labeling, screen-reader support) across all web interfaces, serving about 2,500 students and staff at a federally chartered university.
+
+PROJECTS
+
+Plant Health Predictor | Node.js, Express, Claude API (vision) | github.com/TmoodGitHub/plant-health-predictor
+- Multi-image plant health analysis: takes 2 to 10 photos over time, identifies the plant, scores each image, detects trends, and predicts the next 7 to 14 days. Schema-validated model output with retries, rate limiting, and session isolation; exportable reports.
+
+AI Portfolio Assistant (RAG) | Node.js, Python, OpenAI embeddings | vite-react-portfolio-lime.vercel.app
+- Retrieval-augmented chatbot that answers recruiter questions from resume and GitHub content, with a similarity threshold to drop weak context, a guardrailed system prompt, and serverless deployment.
+
+tmoodgit | Node.js | github.com/TmoodGitHub/tmoodgit
+- Git implemented from scratch: content-addressable object storage (blobs, trees, commits) with SHA-1 hashing, a staging index, branch refs, checkout, and a line-level LCS diff engine behind a full CLI.
+
+TECHNICAL SKILLS
+Languages: TypeScript, JavaScript, Python, Go, PHP, Java
+Frontend: React, Angular, Next.js, Ember.js, Tailwind CSS
+Backend & Architecture: Node.js, REST APIs, GraphQL (independent projects), gRPC, JWT authentication, Sequelize ORM, API design, event-driven architecture, microservices, distributed systems
+Databases & Search: PostgreSQL, MySQL, MSSQL, MongoDB, BigQuery, Amazon Athena, Elasticsearch
+Cloud & Infrastructure: AWS (Lambda, S3, CloudFormation, IAM, SQS, SNS, Kinesis, CloudFront, API Gateway), GCP (Pub/Sub), Docker, Serverless Framework
+AI & LLM: Anthropic Claude API, OpenAI API, embeddings, retrieval-augmented generation (RAG), prompt design, Claude Code, Cursor
+Observability & CI/CD: CloudWatch, Datadog, GCP Logging, CircleCI, Git
+Testing: Jest, Mocha, Chai, Cypress, React Testing Library, QUnit
+
+EDUCATION
+Bachelor of Science in Information Technologies | Rochester Institute of Technology

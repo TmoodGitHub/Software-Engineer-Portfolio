@@ -1,134 +1,65 @@
-# LINKEDIN PROFILE — Tamer Mahmoud
+# LINKEDIN PROFILE: Tamer Mahmoud
 # URL: https://www.linkedin.com/in/tmood/
-# Cleaned for AI embedding — no duplicates, no UI artifacts
 
----
+## HEADLINE
+Senior Software Engineer | Full-Stack & Backend, Data Pipelines, AWS | Building LLM Applications with Evals | AWS Certified Solutions Architect
+
+Location: Washington DC-Baltimore Area
 
 ## ABOUT
+Software engineer with 10 years of experience building production systems: cloud services, data pipelines, microservices and APIs, and databases, including system design and untangling legacy systems. Ran detection pipelines handling millions of security events per day at 99.9%+ availability, and reconciliation pipelines over billions of ad events per month. Building with LLMs through independent projects: retrieval (RAG), vision models, structured output, and AI-assisted triage. AWS Certified Solutions Architect - Associate, which backs up my work in cloud architecture. Core stack: TypeScript, Node.js, Python, React, PostgreSQL, AWS.
 
-I've spent 10+ years building and operating production systems across cybersecurity, ad tech, and enterprise platforms. Most of my work lives in the backend and data layer: APIs, event-driven pipelines, ingestion and reporting workflows running on AWS and GCP.
+Top skills: Full-Stack Software Development, Large Language Models (LLM), Amazon Web Services (AWS), Back-End Web Development, Generative AI
 
-At Expel I owned ingestion and detection pipelines processing millions of security events per day across 100+ vendor integrations, cut slow queries by 60%, and shipped a solo schema migration across 140+ files with zero downtime. At The Media Trust I built reconciliation pipelines processing billions of ad events monthly and redesigned alerting for a 24/7 malware operations desk handling 2,300+ active infections daily.
-
-I work across the full lifecycle: local dev, code review, deployment, infrastructure, monitoring, debugging, and ongoing iteration. I can own a feature end-to-end when a role needs it, including the frontend, but the problems I find most interesting are the ones that live in the data layer and distributed systems.
-
-I also built a custom AI chatbot for my portfolio using the OpenAI API and embeddings over structured resume and project content, so recruiters can actually get real answers instead of reading a PDF.
-
-Core stack: JavaScript/TypeScript, Python, Go, Node.js, PostgreSQL, MongoDB, AWS, GCP.
-
----
+## FEATURED
+AI Security Triage: LLM Severity Triage of AWS CloudTrail Events (github.com/TmoodGitHub/ai-security-triage). Claude rates how serious each AWS CloudTrail event is, using structured output and related activity from the same user or IP. Analysts review every finding in a React dashboard. Hand-labeled evals track accuracy, too-low vs too-high misses, and cost: 75% exact, 94% within one level, at $2.63 per 1,000 alerts. AWS deployment in progress.
 
 ## EXPERIENCE
 
-### Senior Software Engineer — The Media Trust
-Period: September 2025 to March 2026
-Type: Full-time, Remote
+### Independent Projects and AWS Certification (Independent)
+Period: April 2026 to present
+- Earned AWS Certified Solutions Architect - Associate (Aug 2026), covering high-availability design, security, cost optimization, and the AWS Well-Architected Framework.
+- Building AI Security Triage (in progress): severity triage of AWS CloudTrail events with Claude, using schema-checked structured output and related activity pulled by SQL (same user or IP within 24 hours). TypeScript intake and Findings API, PostgreSQL, a React dashboard for analyst review, and hand-labeled evals tracking accuracy, too-low vs too-high misses, cost per 1,000 alerts, and latency, with tests on every push in GitHub Actions. AWS deployment with Terraform in progress.
 
-- Redesigned CloudWatch-to-Slack alerting for sync and blocker workflows supporting a 24/7 malware operations desk processing 2,300+ active infections daily. Added structured diagnostic context and automated daily status summaries that reduced triage response time from hours to minutes.
-- Built historical backfills, daily syncs, and a rolling 7-day reconciliation pipeline across Lambda, Kinesis, PostgreSQL, MongoDB, GAM, and Amazon Athena, processing billions of ad events monthly and surfacing them as business-readable reporting in Qlik.
-- Extended the partner dashboard to surface GAM order data with multi-select filtering and external email delivery, streamlining daily reporting workflows for 600+ publisher clients including Microsoft, Fox News, and major UK media publishers.
-- Overhauled the Docker-based local dev environment and rewrote onboarding documentation for a 30-person engineering org, cutting new engineer ramp time from 4 weeks to under 2 weeks.
+### Senior Software Engineer, The Media Trust
+Period: September 2025 to March 2026. Full-time, remote.
+- Built historical backfills, daily syncs, and a rolling 7-day reconciliation pipeline across Lambda, Kinesis, PostgreSQL, MongoDB, GAM, and Amazon Athena, processing billions of ad events monthly and eliminating recurring manual cleanup for downstream reporting.
+- Redesigned CloudWatch-to-Slack alerting for sync and blocker workflows supporting a 24/7 malware operations desk processing 2,300+ active infections daily; added structured diagnostic context and automated daily status summaries that reduced triage response time from hours to minutes.
+- Designed and extended backend APIs powering the partner dashboard, adding multi-select filtering and external data delivery on top of GAM order data for 600+ publisher clients including Microsoft and Fox News, cutting manual report requests from the ops team.
+- Overhauled the Docker-based local dev environment and rewrote onboarding documentation for a ~30-person engineering org, cutting new engineer ramp time from ~4 weeks to under 2 weeks.
 
-Skills: Node.js, Python, AWS Lambda, Kinesis, PostgreSQL, MongoDB, Amazon Athena, CloudWatch, Docker
-
----
-
-### Software Engineer — Expel
-Period: December 2022 to June 2025
-Type: Full-time, Remote
-
+### Software Engineer, Expel
+Period: December 2022 to June 2025. Full-time, remote.
 - Designed and operated ingestion and detection pipelines processing millions of security events per day across 100+ vendor integrations, implementing normalization, enrichment, and correlation logic that doubled throughput and maintained 99.9%+ pipeline availability.
+- Built the Node.js API, hunt query execution engine, and React investigation UI for the Emerging Threat feature, taking investigations from hunt queries through structured findings and analyst exports and replacing a manual process that took days to weeks across multiple staff.
+- Led a solo backward-compatible schema migration across 140+ files, preserving legacy routes and dual naming patterns, shipped in 3 weeks with zero downtime.
 - Refactored PostgreSQL and BigQuery query patterns and indexing strategies, cutting slow queries by 60% and improving search response times by 50% during peak ingestion.
-- Led a solo backward-compatible schema migration across 140+ files, preserving legacy routes and dual naming patterns simultaneously, shipping in 3 weeks with zero downtime.
-- Automated event-driven detection workflows in Go and Python and tuned alerting in GCP Logging and Datadog, cutting incident response time by 20% and alert noise by 30%.
-- Owned the Emerging Threat feature end to end, replacing a manual process that previously took days to weeks, building full-stack investigation tooling from hunt query execution through structured findings and analyst exports.
-- Decoupled ingestion and processing in a Go-based Pub/Sub pipeline for endpoint monitoring, introducing independent worker scaling that improved pipeline resilience and eliminated processing bottlenecks during volume spikes.
-- Migrated 10+ UI components from Ember.js to React as part of a frontend modernization effort.
-- Enhanced CI/CD pipelines with CircleCI, cutting deployment times by 30%.
+- Resolved a ticket for missing data in an Elasticsearch-backed table by tracing it to events from a Go microservice that were never handled, a long-standing tech debt item. Added Go handlers for the missing events, with tests and test documents, and added a test confirming the data was visible and displayed correctly in the table.
 
-Skills: Go, Python, Node.js, React, Ember.js, PostgreSQL, BigQuery, GCP Pub/Sub, GCP Logging, Datadog, CircleCI, LaunchDarkly, Courier
+### Full Stack Developer, Sales Boomerang
+Period: April 2022 to October 2022. Full-time, remote.
+- Built backend and frontend features in Angular, React, TypeScript, Node.js, and Sequelize for a borrower intelligence platform serving 170+ mortgage lenders, supporting near-real-time alert generation across millions of borrower records.
+- Built event-driven pipeline infrastructure using AWS CloudFormation, CloudWatch, Kinesis, SQS, and SNS, supporting automated borrower alerts during a period of 130%+ quarter-over-quarter alert volume growth.
+- Automated repetitive development workflows and restructured shared code, reducing friction in the team's daily development cycle.
 
----
+### Web Consultant, Rural Sourcing
+Period: August 2021 to April 2022. Full-time, remote.
+- Built Python scripts to automate recurring report generation across multiple databases, eliminating manual data retrieval for the client team.
+- Supported backend development for a client-facing portal, working with database-heavy stored procedures to maintain data integrity and keep production workflows running reliably.
+- Containerized the team's local development environment with Docker, reducing setup variability across the team.
 
-### Full Stack Developer — Sales Boomerang
-Period: April 2022 to October 2022
-Type: Full-time, Remote
-
-- Built full-stack features across Angular, React, TypeScript, Node.js, and Sequelize for a borrower intelligence platform serving 170+ mortgage lenders, supporting near-real-time alert generation across millions of borrower records.
-- Worked on event-driven pipeline infrastructure using AWS CloudFormation, CloudWatch, Kinesis, SQS, and SNS, supporting automated borrower alerts during a period of 130%+ quarter-over-quarter alert volume growth.
-- Optimized REST APIs to improve system speed and reliability.
-- Automated repetitive workflows and restructured shared code to reduce friction in the daily development cycle.
-
-Skills: Angular, React, TypeScript, Node.js, Sequelize, AWS CloudFormation, CloudWatch, Kinesis, SQS, SNS, CI/CD
-
----
-
-### Web Consultant — Rural Sourcing (now Sparq)
-Period: August 2021 to May 2022
-Type: Full-time
-
-- Built Python scripts to automate recurring report generation across multiple databases, eliminating manual data retrieval.
-- Supported backend development for a client-facing portal, working across Java and database-heavy stored procedures to maintain data integrity.
-- Containerized the team's development environment with Docker, reducing setup variability across the team.
-- Supported migration of legacy system components toward more maintainable service-oriented architecture using PHP, React, and AWS.
-
-Skills: Python, PHP, React, AWS, Docker, Java, REST APIs
-
----
-
-### Software Engineer — Gallaudet University
-Period: October 2012 to August 2020
-Type: Full-time, Washington DC
-
-- Built and maintained the core technology platform for the ASLPI program, a nationally recognized ASL proficiency evaluation system supporting thousands of examinees annually across faculty tenure, graduation, and career placement decisions. Sole engineer across the full stack.
-- Rebuilt the ASLPI data layer from the ground up on MSSQL, replacing a legacy MS Access system with a scalable database storing 30+ years of evaluation records, rater reliability analytics, and longitudinal language learning histories.
-- Designed and built a custom CMS and online assessment tooling that automated evaluation scheduling and administrative workflows for 15 staff, cutting processes that previously took weeks down to hours.
-- Developed a remote video review system using RecordRTC and WebRTC enabling evaluators to review recorded ASL interviews from any location.
-- Introduced React on the frontend and Node.js on the backend, and implemented WCAG 2.1 AA accessibility improvements including keyboard navigation, ARIA labeling, and screen-reader compatibility, serving approximately 2,500 students and staff.
-
-Skills: React, Node.js, MSSQL, WebRTC, REST APIs, JavaScript, CSS, Responsive Web Design, CMS
-
----
-
-### IT and Technical Support — Best Buy, Genie Technologies, HP Enterprise
-Period: March 2010 to October 2012
-Type: Full-time
-
-Provided technical support and hardware servicing across consumer and enterprise environments including Geek Squad diagnostics and repairs, enterprise desktop support, and internal IT operations at HP Enterprise.
-
-Skills: Technical Support, Hardware Diagnostics, Desktop Support, Network Troubleshooting, System Deployment
-
----
+### Software Engineer, Gallaudet University
+Period: October 2012 to August 2020. Full-time, Washington, DC.
+- As sole engineer, built and maintained the core platform for the ASLPI program, a nationally recognized ASL proficiency evaluation system supporting thousands of examinees annually across faculty tenure, graduation, and career placement decisions.
+- Rebuilt the ASLPI data layer from the ground up on MSSQL, replacing a legacy system with a scalable database storing 30+ years of evaluation records, rater reliability analytics, and longitudinal language learning histories.
+- Designed and built a custom CMS and online assessment tooling that automated evaluation scheduling and administrative workflows for 15 ASLPI staff, cutting processes that previously took weeks down to hours.
+- Introduced Node.js and React as part of a platform modernization and implemented WCAG 2.1 AA accessibility (keyboard navigation, ARIA labeling, screen-reader support) across all web interfaces, serving about 2,500 students and staff at a federally chartered university.
 
 ## EDUCATION
+Rochester Institute of Technology, Information Technology
 
-Rochester Institute of Technology
-Degree: Bachelor of Science, Information Technology
-Years: 2002 to 2007
-
----
-
-## CERTIFICATIONS
-
-- AWS Partner: Accreditation (Technical) — Amazon Web Services, issued September 2021
-- AWS Partner: Cloud Economics Accreditation — Amazon Web Services, issued September 2021
-- AWS Certified Cloud Practitioner — Amazon Web Services, issued October 2021, expired October 2024
-
----
-
-## SKILLS
-
-### Primary
-JavaScript, TypeScript, Python, Go, Node.js, PostgreSQL, MongoDB, MySQL, MSSQL, BigQuery, Amazon Athena, AWS (Lambda, S3, CloudFormation, IAM, SNS, CloudFront, Kinesis Firehose), GCP (Pub/Sub, Cloud SQL), Docker, Serverless Framework, REST APIs, GraphQL, Sequelize ORM, Event-Driven Architecture
-
-### Frontend
-React, Next.js, Ember.js, Angular, Tailwind CSS, WebRTC, HTML, CSS, Responsive Web Design
-
-### Observability and CI/CD
-CloudWatch, Datadog, GCP Logging, CircleCI, LaunchDarkly
-
-### Testing
-Jest, Mocha, Chai, Cypress, React Testing Library, QUnit
-
-### Other
-PHP, Java, ElasticSearch, WordPress, jQuery, SASS
+## LICENSES AND CERTIFICATIONS
+- AWS Certified Solutions Architect - Associate, Amazon Web Services. Issued August 2026, expires August 2029.
+- AWS Certified Cloud Practitioner, Amazon Web Services. Issued October 2021, expired October 2024.
+- AWS Partner: Cloud Economics Accreditation, Amazon Web Services. Issued September 2021.
+- AWS Partner: Accreditation (Technical), Amazon Web Services. Issued September 2021.
