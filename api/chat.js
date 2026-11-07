@@ -1,4 +1,4 @@
-import { chatHandler } from '../lib/chatHandler';
+import { chatHandler } from '../lib/chatHandler.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -16,12 +16,9 @@ export default async function handler(req, res) {
     }
     if (err?.status === 429) {
       console.error('OpenAI rate limit hit:', err.message);
-      return res
-        .status(429)
-        .json({
-          error:
-            'Rate limit reached. Try again in a moment.',
-        });
+      return res.status(429).json({
+        error: 'Rate limit reached. Try again in a moment.',
+      });
     }
     console.error('API Chat Error:', err);
     res
