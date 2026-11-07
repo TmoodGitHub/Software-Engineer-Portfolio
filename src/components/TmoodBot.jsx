@@ -12,6 +12,9 @@ const GREETINGS = [
   'Beep Beep Bwoop!',
 ];
 
+const MAX_INPUT_CHARS = 500;
+const MAX_SENT_MESSAGES = 20;
+
 export const TmoodBot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
@@ -53,7 +56,7 @@ export const TmoodBot = () => {
       setMessages([greetingMessage]);
       sessionStorage.setItem(
         'tmood-chat',
-        JSON.stringify([greetingMessage])
+        JSON.stringify([greetingMessage]),
       );
     }
 
@@ -76,18 +79,26 @@ export const TmoodBot = () => {
       const res = await fetch(API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: newMessages }),
+        body: JSON.stringify({
+          messages: newMessages.slice(-MAX_SENT_MESSAGES),
+        }),
       });
 
       const data = await res.json();
       const updated = [
         ...newMessages,
-        { role: 'system', content: data.reply },
+        {
+          role: 'system',
+          content:
+            data.reply ??
+            data.error ??
+            'Something went wrong. Try again later.',
+        },
       ];
       setMessages(updated);
       sessionStorage.setItem(
         'tmood-chat',
-        JSON.stringify(updated)
+        JSON.stringify(updated),
       );
     } catch (err) {
       const errorMessage = {
@@ -98,7 +109,7 @@ export const TmoodBot = () => {
       setMessages(updated);
       sessionStorage.setItem(
         'tmood-chat',
-        JSON.stringify(updated)
+        JSON.stringify(updated),
       );
     } finally {
       setLoading(false);
@@ -166,6 +177,7 @@ export const TmoodBot = () => {
               onKeyDown={(e) =>
                 e.key === 'Enter' && sendMessage()
               }
+              maxLength={MAX_INPUT_CHARS}
               placeholder='Ask me something...'
             />
             <button
