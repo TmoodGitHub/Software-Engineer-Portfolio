@@ -61,9 +61,10 @@ jobs:
         run: |
           if git diff --quiet -- knowledge_base/tamer_knowledge_base.txt; then
               echo "changed=false" >> "$GITHUB_OUTPUT"
-              echo "Knowledge base text unchanged; skilling embeddings."
+              echo "Knowledge base text unchanged; skipping embeddings."
           else
-              echo "change=true" >> "$GITHUB_OUTPUT"
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              echo "Knowledge base text changed; rebuilding embeddings."
           fi
 
       - name: Embed
