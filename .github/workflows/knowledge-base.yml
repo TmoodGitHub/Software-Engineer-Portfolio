@@ -1,0 +1,83 @@
+name: Rebuild knowledge base
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - public/Tamer_Mahmoud_Resume.pdf
+      - knowledge_base/tamer_notes.txt
+      - knowledge_base/*.py
+      - knowledge_base/*.mjs
+      - .github/workflows/knowledge-base.yml
+  schedule:
+    - cron: '7 10 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knowledge-base
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+          pip install openai tiktoken python-dotenv
+          sudo apt-get update -q
+          sudo apt-get install -y -q poppler-utils
+
+      - name: Extract resume text from the PDF
+        run: >-
+          pdftotext -enc UTF-8 -nopgbrk
+          public/Tamer_Mahmoud_Resume.pdf
+          knowledge_base/tamer_resume.txt
+
+      - name: Fetch profile README
+        working-directory: knowledge_base
+        run: node scrape_github.mjs
+
+      - name: Combine source
+        working-directory: knowledge_base
+        run: python combine_knowledge.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git dif --quiet -- knowledge_base/tamer_knowledge_base.txt; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "Knowledge base text unchanged; skilling embeddings."
+          else
+              echo "change=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Embed
+        if: steps.diff.outputs.changed == 'true'
+        working-directory: knowledge_base
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python embed_knowledge.py
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "TmoodGitHub"
+          git config user.email "28756300+TmoodGitHub@users.noreply.github.com"
+          git add knowledge_base/tamer_resume.text knowledge_base/tamer_github.txt knowledge_base/tamer_knowledge_base.txt knowledge_base/tamer_knowledge_base_chunk.json
+          git commit -m "Chatbot: rebuild knowledge base (automated)"
+          git push

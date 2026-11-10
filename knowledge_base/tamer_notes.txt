@@ -1,0 +1,1 @@
+About Go: Tamer's Go experience is the work at Expel, in an existing Go microservice (handlers and tests for events it never handled). His Pub/Sub work on GCP was in Node.js, not Go.
