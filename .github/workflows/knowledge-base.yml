@@ -79,6 +79,6 @@ jobs:
         run: |
           git config user.name "TmoodGitHub"
           git config user.email "28756300+TmoodGitHub@users.noreply.github.com"
-          git add knowledge_base/tamer_resume.text knowledge_base/tamer_github.txt knowledge_base/tamer_knowledge_base.txt knowledge_base/tamer_knowledge_base_chunk.json
+          git add knowledge_base/tamer_resume.txt knowledge_base/tamer_github.txt knowledge_base/tamer_knowledge_base.txt knowledge_base/tamer_knowledge_base_chunk.json
           git commit -m "Chatbot: rebuild knowledge base (automated)"
           git push
