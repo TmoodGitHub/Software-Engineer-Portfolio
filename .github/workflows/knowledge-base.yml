@@ -59,7 +59,7 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          if git dif --quiet -- knowledge_base/tamer_knowledge_base.txt; then
+          if git diff --quiet -- knowledge_base/tamer_knowledge_base.txt; then
               echo "changed=false" >> "$GITHUB_OUTPUT"
               echo "Knowledge base text unchanged; skilling embeddings."
           else
