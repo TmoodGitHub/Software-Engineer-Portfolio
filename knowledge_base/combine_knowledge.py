@@ -1,4 +1,4 @@
-files_to_merge = ["tamer_resume.txt", "tamer_github.txt", "tamer_linkedin.txt"]
+files_to_merge = ["tamer_resume.txt", "tamer_github.txt"]
 output_file = "tamer_knowledge_base.txt"
 
 with open(output_file, "w", encoding="utf-8") as outfile:

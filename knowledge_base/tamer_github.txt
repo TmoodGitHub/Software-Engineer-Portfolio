@@ -10,20 +10,20 @@ Full stack engineer building production systems: cloud services, data pipelines,
 
 ## Projects
 
-### 🛡️ AI Security Triage *(in progress)*
-[GitHub Repo](https://github.com/TmoodGitHub/ai-security-triage)
+### 🛡️ AI Security Triage
+[Live Demo](https://d27ph3vqvw136n.cloudfront.net) · [GitHub Repo](https://github.com/TmoodGitHub/ai-security-triage)<br>
+Demo login (view-only): `demo@example.com` / `demo-hire-Tamer-pronto-2026`
 
-AI-assisted triage of AWS security logs. It takes in CloudTrail events, cleans them into one standard format, removes duplicates, and stores them in PostgreSQL. For each event, the code pulls related activity from the same user or IP address in the last 24 hours, and Claude suggests a severity with its reasoning as schema-checked structured output. An analyst reviews every suggestion in a React dashboard. Hand-labeled evals measure accuracy, misses rated too low or too high, cost per 1,000 alerts, and time per alert, and tests run on every push with GitHub Actions. Next: deploying to AWS with Terraform.
+AI-assisted triage of AWS security logs, live on AWS. CloudTrail files uploaded to S3 flow through an event-driven pipeline (SQS and Lambda, in TypeScript and Python) into Aurora Serverless v2, reached only through the RDS Data API. For each event, Claude suggests a severity and its reasoning as schema-checked structured output, using related activity from the same user or IP address in the last 24 hours, and an analyst reviews every finding in a React dashboard behind Cognito sign-in. Hand-labeled evals on 40 cases: 80% exact, 95% within one level, about $3 per 1,000 alerts, and planted prompt injections held in 16 of 16 cases. Everything is in Terraform and deployed by GitHub Actions over OIDC, and it costs about $1 a month when idle.
 
-`TypeScript` `Node.js` `Python` `PostgreSQL` `Claude API` `React` `Evals` `GitHub Actions`
+`TypeScript` `Python` `Claude API` `AWS Lambda` `Aurora Serverless` `Terraform` `React` `Evals` `GitHub Actions`
 
 ---
 
 ### 🌿 Plant Health Predictor
 [GitHub Repo](https://github.com/TmoodGitHub/plant-health-predictor)
 
-Upload 2 to 10 photos of a plant taken over time and get back a health report. It identifies the plant (common name, scientific name, and family), scores each photo for health signs, finds trends across the whole set, and predicts where the plant is heading over the next 7 to 14 days, with recommended actions. The model's output is checked against a schema, with retries, rate limiting, and separate sessions per user. Reports can be exported.
-
+Upload 2 to 10 photos of a plant taken over time and get back a health report. It identifies the plant (common name, scientific name, and family), scores each photo for health signs, finds trends across the whole set, and predicts where the plant is heading over the next 7 to 14 days, with recommended actions. The model's output is checked field by field before it's used, uploads are checked by their file signature, requests are rate limited per IP, and reports can be exported as PDF.
 `Node.js` `Express` `Anthropic Claude API` `Vision AI` `Multer` `Prompt engineering`
 
 ---
@@ -76,10 +76,10 @@ My portfolio site, with a chatbot that answers questions about my work. A Node.j
 | **Languages** | TypeScript · JavaScript · Python · Go · PHP · Java |
 | **Backend** | Node.js · REST APIs · GraphQL · Event-driven architecture · Microservices |
 | **Databases** | PostgreSQL · MongoDB · MySQL · MSSQL · BigQuery · Amazon Athena |
-| **Cloud** | AWS (Lambda, S3, SQS, SNS, Kinesis, IAM, CloudFormation, API Gateway) · GCP (Pub/Sub) · Docker |
+| **Cloud** | AWS (Lambda, S3, SQS, SNS, Kinesis, IAM, CloudFormation, API Gateway, CloudFront, Aurora Serverless, Cognito) · GCP (Pub/Sub) · Terraform · Docker |
 | **Frontend** | React · Next.js · Angular · Ember.js · Tailwind CSS |
 | **AI** | Anthropic Claude API · OpenAI API · Embeddings · Retrieval (RAG) · Prompt design |
-| **Testing & CI** | Vitest · Jest · Cypress · React Testing Library · GitHub Actions · CircleCI |
+| **Testing & CI** | Vitest · Jest · pytest · Cypress · React Testing Library · GitHub Actions · CircleCI |
 | **Monitoring** | CloudWatch · Datadog · GCP Logging |
 
 ---
