@@ -1,3 +1,4 @@
+import { randomUUID } from 'crypto';
 import { Ratelimit } from '@upstash/ratelimit';
 import { Redis } from '@upstash/redis';
 import { chatHandler } from '../lib/chatHandler.js';
@@ -31,6 +32,33 @@ if (!redis) {
     'Rate limiting is off: Upstash Redis variables are not set.',
   );
 }
+
+const ERROR_LOG_KEY = 'tmoodbot:errors';
+const ERROR_LOG_SIZE = 50;
+
+const recordError = async (label, err) => {
+  const ref = randomUUID().slice(0, 8);
+  console.error(`${label} (ref ${ref}):`, err);
+  if (!redis) return ref;
+  try {
+    await redis.lpush(ERROR_LOG_KEY, {
+      ref,
+      time: new Date().toISOString(),
+      name: err?.constructor?.name ?? err?.name,
+      message: err?.messae,
+      status: err?.status,
+      code: err?.code,
+      openaiRequestId: err?.requestID,
+    });
+    await redis.ltrim(ERROR_LOG_KEY, 0, ERROR_LOG_SIZE - 1);
+  } catch (redisErr) {
+    console.error(
+      'Could not save error to Redis:',
+      redisErr,
+    );
+  }
+  return ref;
+};
 
 const getClientIp = (req) =>
   req.headers['x-forwarded-for']?.split(',')[0].trim() ||
@@ -71,14 +99,17 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: err.message });
     }
     if (err?.status === 429) {
-      console.error('OpenAI rate limit hit:', err.message);
+      const ref = await recordError(
+        'OpenAI rate limit hit',
+        err,
+      );
       return res.status(429).json({
-        error: 'Rate limit reached. Try again in a moment.',
+        error: `Rate limit reached. Try again in a moment. (ref ${ref})`,
       });
     }
-    console.error('API Chat Error:', err);
-    res
-      .status(500)
-      .json({ error: 'Internal server error' });
+    const ref = await recordError('API Chat Error', err);
+    res.status(500).json({
+      error: `Something went wrong. Try again later. (ref ${ref})`,
+    });
   }
 }
