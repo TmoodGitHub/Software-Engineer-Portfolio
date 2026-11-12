@@ -144,7 +144,17 @@ def chunk_markdown(body, label):
 
 
 def chunk_paragraphs(body, label):
-    return [f'{label}:\n{p.strip()}' for p in body.split('\n\n') if p.strip()]
+    chunks = []
+    for p in body.split('\n\n'):
+        p = p.strip()
+        if not p:
+            continue
+        lead, sep, rest = p.partition(': ')
+        if sep and len(lead) <= 40 and '\n' not in lead:
+            chunks.append(f'{label}, {lead}:\n{rest.strip()}')
+        else:
+            chunks.append(f'{label}:\n{p}')
+    return chunks
 
 
 def chunk_text(text):

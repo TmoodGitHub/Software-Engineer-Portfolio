@@ -22,23 +22,26 @@ for (const c of cases) {
   ).map(headingOf);
 
   let ok;
+  let first = false;
   if (c.expectNone) {
     ok = headings.length === 0;
   } else {
     ok = headings.some((h) => matches(h, c.expect));
-    if (
-      headings.length > 0 &&
-      matches(headings[0], c.expect)
-    ) {
-      rankedFirst += 1;
-    }
+    first =
+      headings.length > 0 && matches(headings[0], c.expect);
+    if (first) rankedFirst += 1;
   }
   if (ok) passed += 1;
 
-  console.log(`${ok ? 'PASS' : 'FAIL'}  ${c.question}`);
-  if (!ok) {
+  const mark = !ok
+    ? 'FAIL'
+    : !c.expectNone && !first
+      ? 'PASS*'
+      : 'PASS';
+  console.log(`${mark.padEnd(5)}  ${c.question}`);
+  if (mark !== 'PASS') {
     console.log(
-      `       top: ${headings[0] ?? '(nothing above the cutoff)'}`,
+      `     top: ${headings[0] ?? '(nothing above the cutoff)'}`,
     );
   }
 }

@@ -1,11 +1,14 @@
 [
   {
     "question": "What Go experience does Tamer have?",
-    "expect": ["Expel (", "Notes"]
+    "expect": ["Expel (", "Notes, About Go"]
   },
   {
     "question": "Where does Tamer work now?",
-    "expect": ["Independent Projects and AWS Certification"]
+    "expect": [
+      "Independent Projects and AWS Certification",
+      "Notes, Current work"
+    ]
   },
   {
     "question": "Tell me about AI Security Triage.",
