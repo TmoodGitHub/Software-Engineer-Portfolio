@@ -1,5 +1,3 @@
-Notes, About Go: 
-Tamer's Go experience is the work at Expel, in an existing Go microservice (handlers and tests for events it never handled). His Pub/Sub work on GCP was in Node.js, not Go.
+About Go: Tamer's Go experience is the work at Expel, in an existing Go microservice (handlers and tests for events it never handled). His Pub/Sub work on GCP was in Node.js, not Go.
 
-Notes, Current work: 
-Since April 2026, Tamer has been building independent projects, including AI Security Triage, and earned the AWS Certified Solutions Architect - Associate certification. His most recent employer was The Media Trust, where he was a Senior Software Engineer from Sept 2025 to March 2026.
+Current work: Since April 2026, Tamer has been building independent projects, including AI Security Triage, and earned the AWS Certified Solutions Architect - Associate certification. His most recent employer was The Media Trust, where he was a Senior Software Engineer from Sept 2025 to March 2026.
