@@ -45,7 +45,7 @@ const recordError = async (label, err) => {
       ref,
       time: new Date().toISOString(),
       name: err?.constructor?.name ?? err?.name,
-      message: err?.messae,
+      message: err?.message,
       status: err?.status,
       code: err?.code,
       openaiRequestId: err?.requestID,

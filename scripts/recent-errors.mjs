@@ -1,7 +1,7 @@
 import { Redis } from '@upstash/redis';
 
 const errors = await Redis.fromEnv().lrange(
-  'tmood:errors',
+  'tmoodbot:errors',
   0,
   -1,
 );
