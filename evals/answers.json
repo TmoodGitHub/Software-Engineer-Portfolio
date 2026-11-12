@@ -174,5 +174,88 @@
     "question": "How many years of experience does Tamer have?",
     "mustInclude": ["10"],
     "mustNotMatch": ["\\b25\\b"]
+  },
+  {
+    "group": "follow-up",
+    "answerable": true,
+    "history": [
+      {
+        "role": "user",
+        "content": "What did he do at Expel?"
+      },
+      {
+        "role": "assistant",
+        "content": "At Expel, Tamer worked on ingestion and detection pipelines for security events."
+      }
+    ],
+    "question": "Tell me more about that.",
+    "mustInclude": [
+      ["pipeline", "security", "detection", "ingestion"]
+    ]
+  },
+  {
+    "group": "follow-up",
+    "answerable": true,
+    "history": [
+      {
+        "role": "user",
+        "content": "What projects has Tamer built?"
+      },
+      {
+        "role": "assistant",
+        "content": "He built AI Security Triage, the Plant Health Predictor, an AI portfolio assistant, and tmoodgit."
+      }
+    ],
+    "question": "Which one uses a vision model?",
+    "mustInclude": ["Plant Health"]
+  },
+  {
+    "group": "follow-up",
+    "answerable": true,
+    "history": [
+      {
+        "role": "user",
+        "content": "Where did he go to college?"
+      },
+      {
+        "role": "assistant",
+        "content": "He went to Rochester Institute of Technology."
+      }
+    ],
+    "question": "What did he study there?",
+    "mustInclude": ["Information Technolog"]
+  },
+  {
+    "group": "follow-up",
+    "answerable": true,
+    "history": [
+      {
+        "role": "user",
+        "content": "Tell me about AI Security Triage."
+      },
+      {
+        "role": "assistant",
+        "content": "AI Security Triage uses Claude to rate AWS CloudTrail events by severity."
+      }
+    ],
+    "question": "How accurate is it?",
+    "mustInclude": ["80%"]
+  },
+  {
+    "group": "off-topic",
+    "history": [
+      {
+        "role": "user",
+        "content": "What did he do at Expel?"
+      },
+      {
+        "role": "assistant",
+        "content": "At Expel, Tamer worked on ingestion and detection pipelines for security events."
+      }
+    ],
+    "question": "What's the weather in Paris?",
+    "mustInclude": [
+      "only set up to answer questions about Tamer"
+    ]
   }
 ]
