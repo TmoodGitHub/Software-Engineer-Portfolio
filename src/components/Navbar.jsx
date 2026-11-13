@@ -7,7 +7,7 @@ const navItems = [
   { name: 'Home', href: '#hero' },
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
-  // { name: "Projects", href: "#projects" },
+  { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -23,7 +23,7 @@ export const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () =>
-      window.addEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
     <nav
@@ -31,7 +31,7 @@ export const Navbar = () => {
         'fixed w-full z-40 transition-all duration-300',
         isScrolled
           ? 'py-3 bg-background/80 backdrop-blur-md shadow-xs'
-          : 'py-5'
+          : 'py-5',
       )}
     >
       <div className='container flex items-center justify-between'>
@@ -80,8 +80,8 @@ export const Navbar = () => {
             'fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center',
             'transition-all duration-300 md:hidden',
             isMenuOpen
-              ? 'opacity-100 pointer-event-auto'
-              : 'opacity-0 pointer-events-none'
+              ? 'opacity-100 pointer-events-auto'
+              : 'opacity-0 pointer-events-none',
           )}
         >
           <div className='flex flex-col space-y-8 text-xl'>
