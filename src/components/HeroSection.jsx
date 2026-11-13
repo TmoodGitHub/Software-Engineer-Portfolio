@@ -28,7 +28,9 @@ export const HeroSection = () => {
             tech, and enterprise platforms. I work in the
             backend and data layer: APIs, event-driven
             pipelines, and cloud infrastructure on AWS and
-            GCP.
+            GCP. Lately I've been building AI tools on AWS,
+            and I'm an AWS Certified Solutions Architect –
+            Associate.
           </p>
         </div>
       </div>

@@ -42,6 +42,17 @@ export const AboutMe = () => {
               matter to real people.
             </p>
 
+            <p className='text-muted-foreground'>
+              Since April 2026 I've been building
+              independent projects with LLMs and earned the
+              AWS Certified Solutions Architect – Associate
+              certification. AI Security Triage, live on
+              AWS, uses Claude to rate CloudTrail events by
+              severity for analyst review, and the chatbot
+              on this site answers questions about my work,
+              measured by its own evals.
+            </p>
+
             <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
               <a href='#contact' className='cosmic-button'>
                 Get In Touch

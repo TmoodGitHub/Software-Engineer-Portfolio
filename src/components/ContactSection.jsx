@@ -1,10 +1,4 @@
-import {
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Send,
-} from 'lucide-react';
+import { Mail, MapPin, Send } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { useToast } from '../hooks/use-toast';
 import { useState } from 'react';
