@@ -6,44 +6,33 @@ const projects = [
     id: 1,
     title: 'AI Security Triage',
     description:
-      'AI-assisted triage of AWS CloudTrail events. Claude suggests a severity with its reasoning as schema-checked structured output, using related activity from the same user or IP. Analysts review every finding in a React dashboard, and hand-labeled evals track accuracy, too-low vs too-high misses, cost per 1,000 alerts, and latency. AWS deployment with Terraform in progress.',
-    image: '/projects/project_placeholder.png',
+      'Live on AWS. Claude rates each AWS CloudTrail event by severity, using structured output and related activity from the same user or IP, and analysts review every finding in a React dashboard. Event-driven pipeline on S3, SQS and Lambda, with Aurora Serverless and Cognito sign-in, all in Terraform and deployed by GitHub Actions. Evals on 40 hand-labeled cases: 80% exact, 95% within one level, about $3 per 1,000 alerts; 16/16 prompt injections held.',
+    image: '/projects/ai-security-triage.jpg',
     tags: [
       'TypeScript',
       'Python',
-      'PostgreSQL',
       'Claude API',
-      'React',
+      'AWS',
+      'Terraform',
       'Evals',
     ],
-    demoUrl: null,
+    demoUrl: 'https://d27ph3vqvw136n.cloudfront.net',
     github:
       'https://github.com/TmoodGitHub/ai-security-triage',
   },
   {
     id: 2,
-    title: 'Plant Health Predictor',
-    description:
-      'Upload 2 to 10 photos of a plant taken over time and get a health report: plant identification, a health score per photo, trends across the set, and a 7 to 14 day prediction with recommended actions. Model output is schema-checked, with retries, rate limiting, and separate sessions per user.',
-    image: '/projects/project_placeholder.png',
-    tags: ['Node.js', 'Express', 'Claude API', 'Vision AI'],
-    demoUrl: null,
-    github:
-      'https://github.com/TmoodGitHub/plant-health-predictor',
-  },
-  {
-    id: 3,
     title: 'AI-Powered Portfolio',
     description:
-      'This site, with a chatbot that answers questions about my work. A Node.js serverless API uses OpenAI embeddings, built by a Python script, to find the most relevant parts of my resume, GitHub, and LinkedIn, and answers from that content.',
-    image: '/projects/project_placeholder.png',
+      'This site, with TmoodBot, a chatbot that answers questions about my work from my resume and GitHub profile. A Node.js serverless API searches the knowledge base by meaning and keywords and answers only from the best matches, with follow-up handling, rate limiting and prompt-injection defenses. Measured by its own evals: 26/26 retrieval checks and 27/27 answer checks.',
+    image: '/projects/ai-portfolio.jpg',
     tags: [
       'React',
-      'Vite',
-      'Tailwind CSS',
       'Node.js',
       'OpenAI API',
-      'Embeddings',
+      'RAG',
+      'Evals',
+      'Upstash Redis',
     ],
     demoUrl:
       'https://vite-react-portfolio-lime.vercel.app/',
@@ -51,7 +40,7 @@ const projects = [
       'https://github.com/TmoodGitHub/Software-Engineer-Portfolio',
   },
   {
-    id: 4,
+    id: 3,
     title: 'tmoodgit',
     description:
       'A fully functional Git implementation built from scratch in Node.js. Implements the actual internals: content-addressable object storage, SHA-1 hashing, a JSON-backed staging index, branch refs, HEAD resolution, and working tree restoration. Includes a complete CLI and a line-level LCS diff engine.',
@@ -66,6 +55,17 @@ const projects = [
     demoUrl: null,
     github: 'https://github.com/TmoodGitHub/tmoodgit',
   },
+  {
+    id: 4,
+    title: 'Plant Health Predictor',
+    description:
+      "Upload 2 to 10 photos of a plant taken over time and get a health report: plant identification, a health score per photo, trends across the set, and a 7 to 14 day prediction with recommended actions. The model's output is checked field by field before use, uploads are checked by file signature, requests are rate limited per IP, and reports export as PDF.",
+    image: '/projects/project_placeholder.png',
+    tags: ['Node.js', 'Express', 'Claude API', 'Vision AI'],
+    demoUrl: null,
+    github:
+      'https://github.com/TmoodGitHub/plant-health-predictor',
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -78,8 +78,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-          A few things I built outside of work, ranging from
-          systems-level tooling to full-stack applications.
+          Things I built outside of work, from AI tools
+          running on AWS to systems-level tooling.
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
