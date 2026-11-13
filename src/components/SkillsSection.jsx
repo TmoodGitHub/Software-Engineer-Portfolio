@@ -138,7 +138,7 @@ export const SkillsSection = () => {
                   : 'bg-secondary/70 text-foreground hover:bg-secondary',
               )}
             >
-              {category}
+              {category === 'ai' ? 'AI' : category}
             </button>
           ))}
         </div>

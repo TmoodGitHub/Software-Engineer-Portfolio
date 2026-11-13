@@ -121,6 +121,9 @@ export const TmoodBot = () => {
       {/* Floating Chat Toggle Button */}
       <button
         onClick={toggleChat}
+        aria-label={
+          isOpen ? 'Close chat' : 'Chat with TmoodBot'
+        }
         className='fixed bottom-6 right-6 px-4 py-4 rounded-full bg-primary text-primary-foreground font-medium shadow-lg transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95'
       >
         <BotMessageSquare />
@@ -128,14 +131,21 @@ export const TmoodBot = () => {
 
       {/* Chat Window */}
       {isOpen && (
-        <div className='fixed bottom-24 right-6 w-100 h-[500px] bg-background border rounded-2xl shadow-xl flex flex-col overflow-hidden z-50'>
+        <div
+          role='complementary'
+          aria-label='TmoodBot chat'
+          className='fixed bottom-24 right-6 w-100 h-[500px] bg-background border rounded-2xl shadow-xl flex flex-col overflow-hidden z-50'
+        >
           {/* Disclaimer Banner */}
           <div className='px-4 py-2 text-xs text-muted-foreground bg-muted border-b border-border text-center'>
             🤖 The TmoodBot is AI-powered and still
             improving. While it strives for accuracy, we
             recommend verifying key information.
           </div>
-          <div className='flex-1 overflow-y-auto p-4 space-y-3 text-sm'>
+          <div
+            aria-live='polite'
+            className='flex-1 overflow-y-auto p-4 space-y-3 text-sm'
+          >
             {messages.map((msg, i) => (
               <div
                 key={i}
@@ -178,6 +188,7 @@ export const TmoodBot = () => {
                 e.key === 'Enter' && sendMessage()
               }
               maxLength={MAX_INPUT_CHARS}
+              aria-label='Ask TmoodBot a question'
               placeholder='Ask me something...'
             />
             <button

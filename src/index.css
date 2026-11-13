@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --color-border: hsl(var(--border));
@@ -6,19 +6,26 @@
   --color-foreground: hsl(var(--foreground));
 
   --color-primary: hsl(var(--primary));
-  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-foreground: hsl(
+    var(--primary-foreground)
+  );
 
   --color-card: hsl(var(--card));
 
   --animate-float: float 6s ease-in-out infinite;
-  --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
+  --animate-pulse-subtle: pulse-subtle 4s ease-in-out
+    infinite;
   --animate-fade-in: fade-in 0.7s ease-out forwards;
-  --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
-  --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
-  --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
-  --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
-  --animate-fade-in-delay-5: fade-in-late 0.5s cubic-bezier(1, 2.5, 0.2, 1) 2s
+  --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s
     forwards;
+  --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s
+    forwards;
+  --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s
+    forwards;
+  --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s
+    forwards;
+  --animate-fade-in-delay-5: fade-in-late 0.5s
+    cubic-bezier(1, 2.5, 0.2, 1) 2s forwards;
   --animate-meteor: meteor 5s linear infinite;
 
   @keyframes float {
@@ -85,7 +92,7 @@
 
     --card: 0 0% 100%;
 
-    --primary: 250 47% 60%;
+    --primary: 250 47% 56%;
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -98,7 +105,7 @@
     --card: 222 47% 8%;
 
     --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+    --primary-foreground: 222 47% 4%;
 
     --border: 217 33% 20%;
   }
@@ -113,7 +120,9 @@
 
   body {
     @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
   }
 }
 
@@ -149,13 +158,17 @@
 
 @utility gradient-border {
   @apply relative rounded-md;
-  background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
+  background: linear-gradient(
+    to right,
+    hsl(var(--card)),
+    hsl(var(--card))
+  );
   background-clip: padding-box;
   border: 1px solid transparent;
 }
 
 @utility cosmic-button {
-  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10ox_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
 @utility star {

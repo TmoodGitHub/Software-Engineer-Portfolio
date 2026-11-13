@@ -3,7 +3,37 @@ import {
   Database,
   LayoutTemplate,
   Monitor,
+  Sparkles,
 } from 'lucide-react';
+
+// The cards beside the About Me text. Every number comes from the resume.
+const highlights = [
+  {
+    icon: Database,
+    title: 'Backend & Data Systems',
+    text: 'Node.js and TypeScript APIs, event-driven services and ingestion pipelines: millions of security events a day at Expel, billions of ad events a month at The Media Trust. Query tuning across PostgreSQL and BigQuery that cut slow queries by 60%.',
+  },
+  {
+    icon: Cloud,
+    title: 'Cloud & Infrastructure',
+    text: 'AWS Certified Solutions Architect – Associate. Lambda, Kinesis, SQS, SNS and Athena in production, plus GCP Pub/Sub. AI Security Triage runs on AWS entirely in Terraform, deployed by GitHub Actions, for about $1 a month when idle.',
+  },
+  {
+    icon: Monitor,
+    title: 'Observability & Reliability',
+    text: 'Kept detection pipelines at 99.9%+ availability at Expel, and redesigned CloudWatch-to-Slack alerting for a 24/7 malware operations desk, cutting triage response from hours to minutes. CloudWatch, Datadog and GCP Logging.',
+  },
+  {
+    icon: LayoutTemplate,
+    title: 'Full-Stack Delivery',
+    text: 'I own features end to end. At Expel: the API, hunt query engine and React investigation UI for the Emerging Threat feature, replacing a manual process that took days to weeks. At Gallaudet: WCAG 2.1 AA accessibility across web interfaces for about 2,500 students and staff.',
+  },
+  {
+    icon: Sparkles,
+    title: 'AI & LLM Engineering',
+    text: 'Claude and OpenAI APIs in projects I measure, not just demo: structured output, retrieval (RAG), hand-labeled evals, cost tracking and prompt-injection tests. AI Security Triage gets 80% of 40 labeled cases exactly right at about $3 per 1,000 alerts.',
+  },
+];
 
 export const AboutMe = () => {
   return (
@@ -28,15 +58,7 @@ export const AboutMe = () => {
               GCP.
             </p>
             <p className='text-muted-foreground'>
-              At Expel I owned ingestion and detection
-              pipelines processing millions of security
-              events per day, cut slow queries by 60%, and
-              shipped a solo schema migration across 140+
-              files with zero downtime. At The Media Trust I
-              built reconciliation pipelines processing
-              billions of ad events monthly and redesigned
-              alerting for a 24/7 malware operations desk. I
-              get genuinely interested in hard problems,
+              I get genuinely interested in hard problems,
               especially the kind involving high-throughput
               data, unreliable systems, and workflows that
               matter to real people.
@@ -70,82 +92,29 @@ export const AboutMe = () => {
           </div>
 
           <div className='grid grid-cols-1 gap-6'>
-            <div className='gradient-border p-6 card-hover'>
-              <div className='flex items-start gap-4'>
-                <div className='p-3 rounded-full bg-primary/10'>
-                  <Database className='h-6 w-6 text-primary' />
+            {highlights.map((item) => {
+              const Icon = item.icon;
+              return (
+                <div
+                  key={item.title}
+                  className='gradient-border p-6 card-hover'
+                >
+                  <div className='flex items-start gap-4'>
+                    <div className='p-3 rounded-full bg-primary/10'>
+                      <Icon className='h-6 w-6 text-primary' />
+                    </div>
+                    <div className='text-left'>
+                      <h4 className='font-semibold text-lg'>
+                        {item.title}
+                      </h4>
+                      <p className='text-muted-foreground'>
+                        {item.text}
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>
-                    Backend & Data Systems
-                  </h4>
-                  <p className='text-muted-foreground'>
-                    Production APIs, async and event-driven
-                    services, ingestion and reporting
-                    pipelines, schema design and query
-                    optimization across SQL and NoSQL at
-                    scale
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='gradient-border p-6 card-hover'>
-              <div className='flex items-start gap-4'>
-                <div className='p-3 rounded-full bg-primary/10'>
-                  <Cloud className='h-6 w-6 text-primary' />
-                </div>
-                <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>
-                    Cloud & Infrastructure
-                  </h4>
-                  <p className='text-muted-foreground'>
-                    AWS and GCP workloads including Lambda,
-                    Kinesis, Pub/Sub, Athena, and BigQuery.
-                    Infrastructure as code, environment
-                    isolation, and access control
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='gradient-border p-6 card-hover'>
-              <div className='flex items-start gap-4'>
-                <div className='p-3 rounded-full bg-primary/10'>
-                  <Monitor className='h-6 w-6 text-primary' />
-                </div>
-                <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>
-                    Observability & Reliability
-                  </h4>
-                  <p className='text-muted-foreground'>
-                    CloudWatch, Datadog, GCP Logging.
-                    Alerting design, incident response, and
-                    debugging complex distributed workflows
-                    under production pressure
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='gradient-border p-6 card-hover'>
-              <div className='flex items-start gap-4'>
-                <div className='p-3 rounded-full bg-primary/10'>
-                  <LayoutTemplate className='h-6 w-6 text-primary' />
-                </div>
-                <div className='text-left'>
-                  <h4 className='font-semibold text-lg'>
-                    Full-Stack Delivery
-                  </h4>
-                  <p className='text-muted-foreground'>
-                    React, Next.js, TypeScript. I can own a
-                    feature end-to-end when the role calls
-                    for it, and I care about what ships, not
-                    just my layer of it
-                  </p>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>

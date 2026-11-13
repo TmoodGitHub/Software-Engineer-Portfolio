@@ -35,8 +35,8 @@ export const ContactSection = () => {
         </h2>
 
         <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-          Suspect that I might be a good fit? Reach out to
-          me!
+          Hiring for a backend, cloud or AI engineering
+          role? I’d like to hear from you.
         </p>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
@@ -85,6 +85,8 @@ export const ContactSection = () => {
                   <a
                     href='https://www.linkedin.com/in/tmood'
                     target='_blank'
+                    aria-label='LinkedIn profile'
+                    rel='noopener noreferrer'
                   >
                     <LinkedInLogoIcon className='w-8 h-8' />
                   </a>

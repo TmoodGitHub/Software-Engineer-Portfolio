@@ -44,7 +44,7 @@ const projects = [
     title: 'tmoodgit',
     description:
       'A fully functional Git implementation built from scratch in Node.js. Implements the actual internals: content-addressable object storage, SHA-1 hashing, a JSON-backed staging index, branch refs, HEAD resolution, and working tree restoration. Includes a complete CLI and a line-level LCS diff engine.',
-    image: '/projects/project_placeholder.png',
+    image: '/projects/tmoodgit.jpg',
     tags: [
       'Node.js',
       'Git internals',
@@ -60,7 +60,7 @@ const projects = [
     title: 'Plant Health Predictor',
     description:
       "Upload 2 to 10 photos of a plant taken over time and get a health report: plant identification, a health score per photo, trends across the set, and a 7 to 14 day prediction with recommended actions. The model's output is checked field by field before use, uploads are checked by file signature, requests are rate limited per IP, and reports export as PDF.",
-    image: '/projects/project_placeholder.png',
+    image: '/projects/plant-health.jpg',
     tags: ['Node.js', 'Express', 'Claude API', 'Vision AI'],
     demoUrl: null,
     github:
@@ -120,6 +120,7 @@ export const ProjectsSection = () => {
                     {project.demoUrl && (
                       <a
                         href={project.demoUrl}
+                        aria-label={`${project.title} live demo`}
                         target='_blank'
                         rel='noopener noreferrer'
                         className='text-foreground/80 hover:text-primary transition-colors duration-300'
@@ -129,6 +130,7 @@ export const ProjectsSection = () => {
                     )}
                     <a
                       href={project.github}
+                      aria-label={`${project.title} on GitHub`}
                       target='_blank'
                       rel='noopener noreferrer'
                       className='text-foreground/80 hover:text-primary transition-colors duration-300'
