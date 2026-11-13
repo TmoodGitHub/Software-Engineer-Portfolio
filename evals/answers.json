@@ -257,5 +257,17 @@
     "mustInclude": [
       "only set up to answer questions about Tamer"
     ]
+  },
+  {
+    "group": "facts",
+    "answerable": true,
+    "question": "Does he know gRPC?",
+    "mustInclude": ["gRPC"]
+  },
+  {
+    "group": "facts",
+    "answerable": true,
+    "question": "Has he used Elasticsearch?",
+    "mustInclude": ["Elasticsearch"]
   }
 ]
